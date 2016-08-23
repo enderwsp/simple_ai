@@ -1,0 +1,1410 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.csii:ai-web:war:0.0.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework:spring-webmvc:jar -> duplicate declaration of version (?) @ com.csii:ai-web:[unknown-version], F:\MAVEN\ai\ai-web\pom.xml, line 37, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: commons-dbcp:commons-dbcp:jar -> duplicate declaration of version 1.4 @ com.csii:ai:0.0.1-SNAPSHOT, F:\MAVEN\ai\pom.xml, line 47, column 16
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework:spring-webmvc:jar -> duplicate declaration of version 3.1.4.RELEASE @ com.csii:ai:0.0.1-SNAPSHOT, F:\MAVEN\ai\pom.xml, line 59, column 16
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+3/20 KB   5/20 KB   8/20 KB   11/20 KB   13/20 KB   16/20 KB   19/20 KB   20/20 KB   3/13 KB   20/20 KB   4/13 KB   20/20 KB   6/13 KB   20/20 KB   9/13 KB   20/20 KB   12/13 KB   20/20 KB                         Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (20 KB at 6.8 KB/sec)
+13/13 KB                         Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (13 KB at 3.5 KB/sec)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.704 s
+[INFO] Finished at: 2016-08-19T16:25:34+08:00
+[INFO] Final Memory: 35M/2944M
+[INFO] ------------------------------------------------------------------------
+[ERROR] No plugin found for prefix 'jetty' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (F:\MAVEN\MavenFactory), central (https://repo.maven.apache.org/maven2)] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/NoPluginFoundForPrefixException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.csii:ai-web:war:0.0.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework:spring-webmvc:jar -> duplicate declaration of version (?) @ com.csii:ai-web:[unknown-version], F:\MAVEN\ai\ai-web\pom.xml, line 37, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: commons-dbcp:commons-dbcp:jar -> duplicate declaration of version 1.4 @ com.csii:ai:0.0.1-SNAPSHOT, F:\MAVEN\ai\pom.xml, line 114, column 16
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework:spring-webmvc:jar -> duplicate declaration of version 3.1.4.RELEASE @ com.csii:ai:0.0.1-SNAPSHOT, F:\MAVEN\ai\pom.xml, line 126, column 16
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ai-web Maven Webapp 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-jetty-plugin:6.1.26:run (default-cli) > test-compile @ ai-web >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ai-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ ai-web ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to F:\MAVEN\ai\ai-web\target\classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] 未与 -source 1.6 一起设置引导类路径
+[WARNING] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java: F:\MAVEN\ai\ai-web\src\main\java\com\csii\ai\web\action\DemoAction.java使用了未经检查或不安全的操作。
+[WARNING] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java: 有关详细信息, 请使用 -Xlint:unchecked 重新编译。
+[INFO] 3 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] 读取F:\MAVEN\MavenFactory\org\springframework\spring-beans\3.1.4.RELEASE\spring-beans-3.1.4.RELEASE.jar时出错; invalid LOC header (bad signature)
+[ERROR] 读取F:\MAVEN\MavenFactory\org\springframework\spring-aop\3.1.4.RELEASE\spring-aop-3.1.4.RELEASE.jar时出错; invalid LOC header (bad signature)
+[ERROR] 读取F:\MAVEN\MavenFactory\org\springframework\spring-core\3.1.4.RELEASE\spring-core-3.1.4.RELEASE.jar时出错; invalid LOC header (bad signature)
+[ERROR] 读取F:\MAVEN\MavenFactory\org\springframework\spring-expression\3.1.4.RELEASE\spring-expression-3.1.4.RELEASE.jar时出错; invalid CEN header (bad signature)
+[ERROR] 读取F:\MAVEN\MavenFactory\org\springframework\spring-web\3.1.4.RELEASE\spring-web-3.1.4.RELEASE.jar时出错; invalid CEN header (bad signature)
+[ERROR] 读取F:\MAVEN\MavenFactory\org\springframework\spring-beans\3.1.4.RELEASE\spring-beans-3.1.4.RELEASE.jar时出错; cannot read zip file entry
+[ERROR] 读取F:\MAVEN\MavenFactory\org\springframework\spring-aop\3.1.4.RELEASE\spring-aop-3.1.4.RELEASE.jar时出错; cannot read zip file entry
+[ERROR] 读取F:\MAVEN\MavenFactory\org\springframework\spring-core\3.1.4.RELEASE\spring-core-3.1.4.RELEASE.jar时出错; cannot read zip file entry
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[6,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[7,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,43] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,71] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[8,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[9,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,34] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,62] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,32] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,60] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,37] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,65] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[70,34] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/view/JsonView.java:[9,8] 无法访问org.springframework.beans.factory.BeanNameAware
+  找不到org.springframework.beans.factory.BeanNameAware的类文件
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/view/JsonView.java:[14,21] 程序包this不存在
+[INFO] 23 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.058 s
+[INFO] Finished at: 2016-08-19T16:37:01+08:00
+[INFO] Final Memory: 38M/2944M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project ai-web: Compilation failure: Compilation failure:
+[ERROR] 读取F:\MAVEN\MavenFactory\org\springframework\spring-beans\3.1.4.RELEASE\spring-beans-3.1.4.RELEASE.jar时出错; invalid LOC header (bad signature)
+[ERROR] 读取F:\MAVEN\MavenFactory\org\springframework\spring-aop\3.1.4.RELEASE\spring-aop-3.1.4.RELEASE.jar时出错; invalid LOC header (bad signature)
+[ERROR] 读取F:\MAVEN\MavenFactory\org\springframework\spring-core\3.1.4.RELEASE\spring-core-3.1.4.RELEASE.jar时出错; invalid LOC header (bad signature)
+[ERROR] 读取F:\MAVEN\MavenFactory\org\springframework\spring-expression\3.1.4.RELEASE\spring-expression-3.1.4.RELEASE.jar时出错; invalid CEN header (bad signature)
+[ERROR] 读取F:\MAVEN\MavenFactory\org\springframework\spring-web\3.1.4.RELEASE\spring-web-3.1.4.RELEASE.jar时出错; invalid CEN header (bad signature)
+[ERROR] 读取F:\MAVEN\MavenFactory\org\springframework\spring-beans\3.1.4.RELEASE\spring-beans-3.1.4.RELEASE.jar时出错; cannot read zip file entry
+[ERROR] 读取F:\MAVEN\MavenFactory\org\springframework\spring-aop\3.1.4.RELEASE\spring-aop-3.1.4.RELEASE.jar时出错; cannot read zip file entry
+[ERROR] 读取F:\MAVEN\MavenFactory\org\springframework\spring-core\3.1.4.RELEASE\spring-core-3.1.4.RELEASE.jar时出错; cannot read zip file entry
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[6,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[7,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,43] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,71] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[8,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[9,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,34] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,62] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,32] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,60] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,37] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,65] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[70,34] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/view/JsonView.java:[9,8] 无法访问org.springframework.beans.factory.BeanNameAware
+[ERROR] 找不到org.springframework.beans.factory.BeanNameAware的类文件
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/view/JsonView.java:[14,21] 程序包this不存在
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.csii:ai-web:war:0.0.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework:spring-webmvc:jar -> duplicate declaration of version (?) @ com.csii:ai-web:[unknown-version], F:\MAVEN\ai\ai-web\pom.xml, line 37, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: commons-dbcp:commons-dbcp:jar -> duplicate declaration of version 1.4 @ com.csii:ai:0.0.1-SNAPSHOT, F:\MAVEN\ai\pom.xml, line 114, column 16
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework:spring-webmvc:jar -> duplicate declaration of version 3.1.4.RELEASE @ com.csii:ai:0.0.1-SNAPSHOT, F:\MAVEN\ai\pom.xml, line 126, column 16
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ai-web Maven Webapp 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-jetty-plugin:6.1.26:run (default-cli) > test-compile @ ai-web >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ai-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ ai-web ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to F:\MAVEN\ai\ai-web\target\classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] 未与 -source 1.7 一起设置引导类路径
+[WARNING] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java: F:\MAVEN\ai\ai-web\src\main\java\com\csii\ai\web\action\DemoAction.java使用了未经检查或不安全的操作。
+[WARNING] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java: 有关详细信息, 请使用 -Xlint:unchecked 重新编译。
+[INFO] 3 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] 读取F:\MAVEN\MavenFactory\org\springframework\spring-beans\3.1.4.RELEASE\spring-beans-3.1.4.RELEASE.jar时出错; invalid LOC header (bad signature)
+[ERROR] 读取F:\MAVEN\MavenFactory\org\springframework\spring-aop\3.1.4.RELEASE\spring-aop-3.1.4.RELEASE.jar时出错; invalid LOC header (bad signature)
+[ERROR] 读取F:\MAVEN\MavenFactory\org\springframework\spring-core\3.1.4.RELEASE\spring-core-3.1.4.RELEASE.jar时出错; invalid LOC header (bad signature)
+[ERROR] 读取F:\MAVEN\MavenFactory\org\springframework\spring-expression\3.1.4.RELEASE\spring-expression-3.1.4.RELEASE.jar时出错; invalid CEN header (bad signature)
+[ERROR] 读取F:\MAVEN\MavenFactory\org\springframework\spring-web\3.1.4.RELEASE\spring-web-3.1.4.RELEASE.jar时出错; invalid CEN header (bad signature)
+[ERROR] 读取F:\MAVEN\MavenFactory\org\springframework\spring-beans\3.1.4.RELEASE\spring-beans-3.1.4.RELEASE.jar时出错; cannot read zip file entry
+[ERROR] 读取F:\MAVEN\MavenFactory\org\springframework\spring-aop\3.1.4.RELEASE\spring-aop-3.1.4.RELEASE.jar时出错; cannot read zip file entry
+[ERROR] 读取F:\MAVEN\MavenFactory\org\springframework\spring-core\3.1.4.RELEASE\spring-core-3.1.4.RELEASE.jar时出错; cannot read zip file entry
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[6,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[7,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,43] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,71] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[8,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[9,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,34] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,62] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,32] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,60] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,37] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,65] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[70,34] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/view/JsonView.java:[9,8] 无法访问org.springframework.beans.factory.BeanNameAware
+  找不到org.springframework.beans.factory.BeanNameAware的类文件
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/view/JsonView.java:[14,21] 程序包this不存在
+[INFO] 23 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.973 s
+[INFO] Finished at: 2016-08-19T16:39:34+08:00
+[INFO] Final Memory: 38M/2944M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project ai-web: Compilation failure: Compilation failure:
+[ERROR] 读取F:\MAVEN\MavenFactory\org\springframework\spring-beans\3.1.4.RELEASE\spring-beans-3.1.4.RELEASE.jar时出错; invalid LOC header (bad signature)
+[ERROR] 读取F:\MAVEN\MavenFactory\org\springframework\spring-aop\3.1.4.RELEASE\spring-aop-3.1.4.RELEASE.jar时出错; invalid LOC header (bad signature)
+[ERROR] 读取F:\MAVEN\MavenFactory\org\springframework\spring-core\3.1.4.RELEASE\spring-core-3.1.4.RELEASE.jar时出错; invalid LOC header (bad signature)
+[ERROR] 读取F:\MAVEN\MavenFactory\org\springframework\spring-expression\3.1.4.RELEASE\spring-expression-3.1.4.RELEASE.jar时出错; invalid CEN header (bad signature)
+[ERROR] 读取F:\MAVEN\MavenFactory\org\springframework\spring-web\3.1.4.RELEASE\spring-web-3.1.4.RELEASE.jar时出错; invalid CEN header (bad signature)
+[ERROR] 读取F:\MAVEN\MavenFactory\org\springframework\spring-beans\3.1.4.RELEASE\spring-beans-3.1.4.RELEASE.jar时出错; cannot read zip file entry
+[ERROR] 读取F:\MAVEN\MavenFactory\org\springframework\spring-aop\3.1.4.RELEASE\spring-aop-3.1.4.RELEASE.jar时出错; cannot read zip file entry
+[ERROR] 读取F:\MAVEN\MavenFactory\org\springframework\spring-core\3.1.4.RELEASE\spring-core-3.1.4.RELEASE.jar时出错; cannot read zip file entry
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[6,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[7,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,43] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,71] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[8,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[9,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,34] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,62] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,32] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,60] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,37] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,65] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[70,34] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/view/JsonView.java:[9,8] 无法访问org.springframework.beans.factory.BeanNameAware
+[ERROR] 找不到org.springframework.beans.factory.BeanNameAware的类文件
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/view/JsonView.java:[14,21] 程序包this不存在
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.csii:ai-web:war:0.0.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework:spring-webmvc:jar -> duplicate declaration of version (?) @ com.csii:ai-web:[unknown-version], F:\MAVEN\ai\ai-web\pom.xml, line 37, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: commons-dbcp:commons-dbcp:jar -> duplicate declaration of version 1.4 @ com.csii:ai:0.0.1-SNAPSHOT, F:\MAVEN\ai\pom.xml, line 114, column 16
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework:spring-webmvc:jar -> duplicate declaration of version 3.1.4.RELEASE @ com.csii:ai:0.0.1-SNAPSHOT, F:\MAVEN\ai\pom.xml, line 126, column 16
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+Downloading: https://repo.maven.apache.org/maven2/org/mortbay/jetty/maven-jetty-plugin/6.1.26/maven-jetty-plugin-6.1.26.pom
+3/6 KB   5/6 KB   6/6 KB            Downloaded: https://repo.maven.apache.org/maven2/org/mortbay/jetty/maven-jetty-plugin/6.1.26/maven-jetty-plugin-6.1.26.pom (6 KB at 2.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/mortbay/jetty/project/6.1.26/project-6.1.26.pom
+3/9 KB   5/9 KB   8/9 KB   9/9 KB            Downloaded: https://repo.maven.apache.org/maven2/org/mortbay/jetty/project/6.1.26/project-6.1.26.pom (9 KB at 11.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/mortbay/jetty/jetty-parent/10/jetty-parent-10.pom
+3/4 KB   4/4 KB            Downloaded: https://repo.maven.apache.org/maven2/org/mortbay/jetty/jetty-parent/10/jetty-parent-10.pom (4 KB at 4.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-parent/14/jetty-parent-14.pom
+3/17 KB   5/17 KB   8/17 KB   11/17 KB   13/17 KB   16/17 KB   17/17 KB              Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-parent/14/jetty-parent-14.pom (17 KB at 15.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/mortbay/jetty/maven-jetty-plugin/6.1.26/maven-jetty-plugin-6.1.26.jar
+3/47 KB    5/47 KB   8/47 KB   11/47 KB   13/47 KB   16/47 KB   19/47 KB   21/47 KB   24/47 KB   27/47 KB   29/47 KB   32/47 KB   36/47 KB   40/47 KB   44/47 KB   47/47 KB              Downloaded: https://repo.maven.apache.org/maven2/org/mortbay/jetty/maven-jetty-plugin/6.1.26/maven-jetty-plugin-6.1.26.jar (47 KB at 27.6 KB/sec)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ai-web Maven Webapp 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-jetty-plugin:6.1.26:run (default-cli) > test-compile @ ai-web >>>
+Downloading: https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/3.1.4.RELEASE/spring-webmvc-3.1.4.RELEASE.pom
+3/10 KB    5/10 KB   8/10 KB   10/10 KB              Downloaded: https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/3.1.4.RELEASE/spring-webmvc-3.1.4.RELEASE.pom (10 KB at 10.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/3.1.4.RELEASE/spring-context-support-3.1.4.RELEASE.pom
+3/5 KB     5/5 KB            Downloaded: https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/3.1.4.RELEASE/spring-context-support-3.1.4.RELEASE.pom (5 KB at 4.1 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/springframework/spring-web/3.1.4.RELEASE/spring-web-3.1.4.RELEASE.pom
+3/7 KB   5/7 KB   7/7 KB            Downloaded: https://repo.maven.apache.org/maven2/org/springframework/spring-web/3.1.4.RELEASE/spring-web-3.1.4.RELEASE.pom (7 KB at 1.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.pom (2 KB at 2.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom (2 KB at 1.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.12/jcl-over-slf4j-1.7.12.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.12/jcl-over-slf4j-1.7.12.pom (2 KB at 2.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.12/slf4j-parent-1.7.12.pom
+3/12 KB   5/12 KB   8/12 KB   11/12 KB   12/12 KB              Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.12/slf4j-parent-1.7.12.pom (12 KB at 7.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.pom
+3/3 KB     3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.pom (3 KB at 2.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.pom
+3/13 KB   5/13 KB   8/13 KB   11/13 KB   13/13 KB              Downloaded: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.pom (13 KB at 8.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.1.3/logback-parent-1.1.3.pom
+3/16 KB    5/16 KB   8/16 KB   11/16 KB   13/16 KB   16/16 KB   16/16 KB              Downloaded: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.1.3/logback-parent-1.1.3.pom (16 KB at 11.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3.pom
+3/5 KB     5/5 KB            Downloaded: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3.pom (5 KB at 4.8 KB/sec)
+[WARNING] The POM for com.csii:ai-config:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+[WARNING] The POM for com.csii:ai-db:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+[WARNING] The POM for com.csii:ai-core:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+Downloading: https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/3.1.4.RELEASE/spring-webmvc-3.1.4.RELEASE.jar
+Downloading: https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/3.1.4.RELEASE/spring-context-support-3.1.4.RELEASE.jar
+Downloading: https://repo.maven.apache.org/maven2/org/springframework/spring-web/3.1.4.RELEASE/spring-web-3.1.4.RELEASE.jar
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar
+3/105 KB   5/105 KB   3/763 KB   5/105 KB   3/763 KB   8/105 KB   5/763 KB   8/105 KB   5/763 KB   11/105 KB   8/763 KB   11/105 KB   11/763 KB   11/105 KB   13/763 KB   11/105 KB   16/763 KB   11/105 KB   19/763 KB   11/105 KB   21/763 KB   11/105 KB   24/763 KB   11/105 KB   27/763 KB   11/105 KB   29/763 KB   11/105 KB   32/763 KB   11/105 KB   32/763 KB   11/105 KB   3/227 KB   32/763 KB   11/105 KB   5/227 KB   32/763 KB   3/566 KB   11/105 KB   5/227 KB   32/763 KB   3/542 KB   3/566 KB   11/105 KB   5/227 KB   32/763 KB   5/542 KB   3/566 KB   11/105 KB   5/227 KB   32/763 KB   8/542 KB   3/566 KB   11/105 KB   5/227 KB   32/763 KB   11/542 KB   3/566 KB   11/105 KB   5/227 KB   32/763 KB   13/542 KB   3/566 KB   11/105 KB   5/227 KB   32/763 KB   16/542 KB   3/566 KB   11/105 KB   5/227 KB   32/763 KB   16/542 KB   3/566 KB   11/105 KB   8/227 KB   32/763 KB   16/542 KB   3/566 KB   11/105 KB   11/227 KB   32/763 KB   16/542 KB   3/566 KB   11/105 KB   13/227 KB   32/763 KB   16/542 KB   3/566 KB   11/105 KB   16/227 KB   32/763 KB   16/542 KB   3/566 KB   11/105 KB   19/227 KB   32/763 KB   19/542 KB   3/566 KB   11/105 KB   19/227 KB   32/763 KB   19/542 KB   3/566 KB   13/105 KB   19/227 KB   32/763 KB   19/542 KB   3/566 KB   16/105 KB   19/227 KB   32/763 KB   19/542 KB   3/566 KB   19/105 KB   19/227 KB   32/763 KB   19/542 KB   3/566 KB   21/105 KB   19/227 KB   32/763 KB   19/542 KB   3/566 KB   24/105 KB   19/227 KB   32/763 KB   19/542 KB   3/566 KB   27/105 KB   19/227 KB   32/763 KB   19/542 KB   3/566 KB   29/105 KB   19/227 KB   32/763 KB   19/542 KB   3/566 KB   29/105 KB   21/227 KB   32/763 KB   19/542 KB   3/566 KB   29/105 KB   24/227 KB   32/763 KB   19/542 KB   3/566 KB   29/105 KB   27/227 KB   32/763 KB   19/542 KB   3/566 KB   29/105 KB   29/227 KB   32/763 KB   19/542 KB   3/566 KB   32/105 KB   29/227 KB   32/763 KB   21/542 KB   3/566 KB   32/105 KB   29/227 KB   32/763 KB   24/542 KB   3/566 KB   32/105 KB   29/227 KB   32/763 KB   27/542 KB   3/566 KB   32/105 KB   29/227 KB   32/763 KB   27/542 KB   3/566 KB   32/105 KB   32/227 KB   32/763 KB   29/542 KB   3/566 KB   32/105 KB   32/227 KB   32/763 KB   32/542 KB   3/566 KB   32/105 KB   32/227 KB   32/763 KB   32/542 KB   5/566 KB   32/105 KB   32/227 KB   32/763 KB   32/542 KB   5/566 KB   36/105 KB   32/227 KB   32/763 KB   32/542 KB   5/566 KB   40/105 KB   32/227 KB   32/763 KB   32/542 KB   5/566 KB   44/105 KB   32/227 KB   32/763 KB   32/542 KB   5/566 KB   48/105 KB   32/227 KB   32/763 KB   32/542 KB   8/566 KB   48/105 KB   32/227 KB   32/763 KB   32/542 KB   11/566 KB   48/105 KB   32/227 KB   32/763 KB   32/542 KB   13/566 KB   48/105 KB   32/227 KB   32/763 KB   36/542 KB   13/566 KB   48/105 KB   32/227 KB   32/763 KB   40/542 KB   13/566 KB   48/105 KB   32/227 KB   32/763 KB   44/542 KB   13/566 KB   48/105 KB   32/227 KB   32/763 KB   48/542 KB   13/566 KB   48/105 KB   32/227 KB   32/763 KB   48/542 KB   16/566 KB   48/105 KB   32/227 KB   32/763 KB   48/542 KB   19/566 KB   48/105 KB   32/227 KB   32/763 KB   48/542 KB   21/566 KB   48/105 KB   32/227 KB   32/763 KB   48/542 KB   24/566 KB   48/105 KB   32/227 KB   32/763 KB   48/542 KB   27/566 KB   48/105 KB   32/227 KB   32/763 KB   48/542 KB   29/566 KB   48/105 KB   32/227 KB   32/763 KB   48/542 KB   29/566 KB   48/105 KB   36/227 KB   32/763 KB   48/542 KB   29/566 KB   48/105 KB   40/227 KB   32/763 KB   48/542 KB   29/566 KB   48/105 KB   44/227 KB   32/763 KB   48/542 KB   29/566 KB   48/105 KB   48/227 KB   32/763 KB   48/542 KB   32/566 KB   48/105 KB   48/227 KB   32/763 KB   48/542 KB   32/566 KB   48/105 KB   52/227 KB   32/763 KB   48/542 KB   32/566 KB   48/105 KB   56/227 KB   32/763 KB   48/542 KB   32/566 KB   48/105 KB   60/227 KB   32/763 KB   48/542 KB   32/566 KB   48/105 KB   64/227 KB   36/763 KB   48/542 KB   32/566 KB   48/105 KB   64/227 KB   40/763 KB   48/542 KB   32/566 KB   48/105 KB   64/227 KB   44/763 KB   48/542 KB   32/566 KB   48/105 KB   64/227 KB   48/763 KB   48/542 KB   32/566 KB   48/105 KB   64/227 KB   48/763 KB   48/542 KB   32/566 KB   48/105 KB   68/227 KB   48/763 KB   48/542 KB   32/566 KB   48/105 KB   72/227 KB   48/763 KB   48/542 KB   32/566 KB   48/105 KB   76/227 KB   48/763 KB   48/542 KB   32/566 KB   48/105 KB   80/227 KB   48/763 KB   52/542 KB   32/566 KB   48/105 KB   80/227 KB   48/763 KB   56/542 KB   32/566 KB   48/105 KB   80/227 KB   48/763 KB   60/542 KB   32/566 KB   48/105 KB   80/227 KB   48/763 KB   64/542 KB   32/566 KB   48/105 KB   80/227 KB   48/763 KB   64/542 KB   32/566 KB   48/105 KB   83/227 KB   48/763 KB   64/542 KB   32/566 KB   48/105 KB   85/227 KB   48/763 KB   64/542 KB   32/566 KB   48/105 KB   88/227 KB   48/763 KB   64/542 KB   32/566 KB   48/105 KB   91/227 KB   48/763 KB   64/542 KB   32/566 KB   48/105 KB   93/227 KB   48/763 KB   64/542 KB   32/566 KB   48/105 KB   96/227 KB   48/763 KB   64/542 KB   32/566 KB   48/105 KB   99/227 KB   48/763 KB   64/542 KB   32/566 KB   48/105 KB   101/227 KB   48/763 KB   64/542 KB   32/566 KB   48/105 KB   104/227 KB   48/763 KB   64/542 KB   32/566 KB   48/105 KB   107/227 KB   48/763 KB   64/542 KB   32/566 KB   48/105 KB   109/227 KB   48/763 KB   64/542 KB   32/566 KB   48/105 KB   112/227 KB   48/763 KB   68/542 KB   32/566 KB   48/105 KB   112/227 KB   48/763 KB   72/542 KB   32/566 KB   48/105 KB   112/227 KB   48/763 KB   76/542 KB   32/566 KB   48/105 KB   112/227 KB   48/763 KB   80/542 KB   32/566 KB   48/105 KB   112/227 KB   48/763 KB   80/542 KB   32/566 KB   48/105 KB   116/227 KB   48/763 KB   80/542 KB   32/566 KB   48/105 KB   120/227 KB   48/763 KB   80/542 KB   32/566 KB   48/105 KB   124/227 KB   48/763 KB   80/542 KB   32/566 KB   48/105 KB   128/227 KB   48/763 KB   83/542 KB   32/566 KB   48/105 KB   128/227 KB   48/763 KB   85/542 KB   32/566 KB   48/105 KB   128/227 KB   48/763 KB   88/542 KB   32/566 KB   48/105 KB   128/227 KB   48/763 KB   88/542 KB   32/566 KB   48/105 KB   131/227 KB   48/763 KB   88/542 KB   32/566 KB   48/105 KB   133/227 KB   48/763 KB   88/542 KB   36/566 KB   48/105 KB   133/227 KB   48/763 KB   88/542 KB   40/566 KB   48/105 KB   133/227 KB   48/763 KB   88/542 KB   44/566 KB   48/105 KB   133/227 KB   48/763 KB   88/542 KB   48/566 KB   48/105 KB   133/227 KB   48/763 KB   91/542 KB   48/566 KB   48/105 KB   133/227 KB   48/763 KB   91/542 KB   48/566 KB   48/105 KB   136/227 KB   48/763 KB   91/542 KB   48/566 KB   48/105 KB   139/227 KB   48/763 KB   91/542 KB   48/566 KB   52/105 KB   139/227 KB   48/763 KB   91/542 KB   48/566 KB   56/105 KB   139/227 KB   48/763 KB   91/542 KB   48/566 KB   60/105 KB   139/227 KB   48/763 KB   91/542 KB   48/566 KB   64/105 KB   139/227 KB   48/763 KB   93/542 KB   48/566 KB   64/105 KB   139/227 KB   48/763 KB   93/542 KB   48/566 KB   64/105 KB   141/227 KB   48/763 KB   93/542 KB   48/566 KB   64/105 KB   144/227 KB   48/763 KB   93/542 KB   48/566 KB   64/105 KB   147/227 KB   48/763 KB   93/542 KB   48/566 KB   64/105 KB   149/227 KB   48/763 KB   93/542 KB   48/566 KB   64/105 KB   152/227 KB   48/763 KB   96/542 KB   48/566 KB   64/105 KB   152/227 KB   48/763 KB   96/542 KB   48/566 KB   68/105 KB   152/227 KB   48/763 KB   96/542 KB   48/566 KB   72/105 KB   152/227 KB   48/763 KB   96/542 KB   48/566 KB   76/105 KB   152/227 KB   48/763 KB   96/542 KB   48/566 KB   80/105 KB   152/227 KB   48/763 KB   96/542 KB   48/566 KB   83/105 KB   152/227 KB   48/763 KB   99/542 KB   48/566 KB   83/105 KB   152/227 KB   48/763 KB   101/542 KB   48/566 KB   83/105 KB   152/227 KB   48/763 KB   101/542 KB   48/566 KB   83/105 KB   155/227 KB   48/763 KB   101/542 KB   48/566 KB   85/105 KB   155/227 KB   48/763 KB   104/542 KB   48/566 KB   85/105 KB   155/227 KB   48/763 KB   104/542 KB   48/566 KB   85/105 KB   157/227 KB   48/763 KB   104/542 KB   48/566 KB   85/105 KB   160/227 KB   48/763 KB   104/542 KB   52/566 KB   85/105 KB   160/227 KB   48/763 KB   104/542 KB   56/566 KB   85/105 KB   160/227 KB   48/763 KB   104/542 KB   60/566 KB   85/105 KB   160/227 KB   48/763 KB   104/542 KB   64/566 KB   85/105 KB   160/227 KB   48/763 KB   107/542 KB   64/566 KB   85/105 KB   160/227 KB   48/763 KB   109/542 KB   64/566 KB   85/105 KB   160/227 KB   48/763 KB   109/542 KB   64/566 KB   88/105 KB   160/227 KB   48/763 KB   109/542 KB   68/566 KB   88/105 KB   160/227 KB   48/763 KB   109/542 KB   72/566 KB   88/105 KB   160/227 KB   48/763 KB   109/542 KB   76/566 KB   88/105 KB   160/227 KB   48/763 KB   109/542 KB   80/566 KB   88/105 KB   160/227 KB   48/763 KB   112/542 KB   80/566 KB   88/105 KB   160/227 KB   48/763 KB   112/542 KB   83/566 KB   88/105 KB   160/227 KB   48/763 KB   112/542 KB   83/566 KB   91/105 KB   160/227 KB   48/763 KB   112/542 KB   83/566 KB   93/105 KB   160/227 KB   48/763 KB   112/542 KB   83/566 KB   96/105 KB   160/227 KB   48/763 KB   112/542 KB   85/566 KB   96/105 KB   160/227 KB   48/763 KB   112/542 KB   88/566 KB   96/105 KB   160/227 KB   48/763 KB   112/542 KB   91/566 KB   96/105 KB   160/227 KB   48/763 KB   112/542 KB   93/566 KB   96/105 KB   160/227 KB   48/763 KB   112/542 KB   93/566 KB   99/105 KB   160/227 KB   48/763 KB   112/542 KB   96/566 KB   99/105 KB   160/227 KB   48/763 KB   116/542 KB   96/566 KB   99/105 KB   160/227 KB   48/763 KB   120/542 KB   96/566 KB   99/105 KB   160/227 KB   48/763 KB   124/542 KB   96/566 KB   99/105 KB   160/227 KB   48/763 KB   128/542 KB   96/566 KB   99/105 KB   160/227 KB   48/763 KB   128/542 KB   96/566 KB   99/105 KB   164/227 KB   48/763 KB   128/542 KB   96/566 KB   99/105 KB   168/227 KB   48/763 KB   128/542 KB   96/566 KB   99/105 KB   172/227 KB   48/763 KB   128/542 KB   96/566 KB   99/105 KB   176/227 KB   48/763 KB   128/542 KB   96/566 KB   99/105 KB   179/227 KB   48/763 KB   128/542 KB   99/566 KB   99/105 KB   179/227 KB   48/763 KB   128/542 KB   101/566 KB   99/105 KB   179/227 KB   48/763 KB   128/542 KB   104/566 KB   99/105 KB   179/227 KB   48/763 KB   131/542 KB   104/566 KB   99/105 KB   179/227 KB   48/763 KB   133/542 KB   104/566 KB   99/105 KB   179/227 KB   48/763 KB   133/542 KB   104/566 KB   99/105 KB   181/227 KB   48/763 KB   133/542 KB   104/566 KB   99/105 KB   184/227 KB   48/763 KB   133/542 KB   107/566 KB   99/105 KB   184/227 KB   48/763 KB   133/542 KB   109/566 KB   99/105 KB   184/227 KB   48/763 KB   136/542 KB   109/566 KB   99/105 KB   184/227 KB   48/763 KB   136/542 KB   109/566 KB   99/105 KB   187/227 KB   48/763 KB   136/542 KB   109/566 KB   99/105 KB   189/227 KB   48/763 KB   136/542 KB   112/566 KB   99/105 KB   189/227 KB   48/763 KB   139/542 KB   112/566 KB   99/105 KB   189/227 KB   48/763 KB   141/542 KB   112/566 KB   99/105 KB   189/227 KB   48/763 KB   144/542 KB   112/566 KB   99/105 KB   189/227 KB   48/763 KB   144/542 KB   112/566 KB   99/105 KB   192/227 KB   48/763 KB   147/542 KB   112/566 KB   99/105 KB   192/227 KB   48/763 KB   147/542 KB   112/566 KB   99/105 KB   195/227 KB   48/763 KB   147/542 KB   112/566 KB   99/105 KB   197/227 KB   48/763 KB   147/542 KB   116/566 KB   99/105 KB   197/227 KB   48/763 KB   147/542 KB   120/566 KB   99/105 KB   197/227 KB   48/763 KB   147/542 KB   124/566 KB   99/105 KB   197/227 KB   48/763 KB   147/542 KB   125/566 KB   99/105 KB   197/227 KB   48/763 KB   147/542 KB   128/566 KB   99/105 KB   197/227 KB   48/763 KB   149/542 KB   128/566 KB   99/105 KB   197/227 KB   48/763 KB   149/542 KB   131/566 KB   99/105 KB   197/227 KB   48/763 KB   149/542 KB   133/566 KB   99/105 KB   197/227 KB   48/763 KB   149/542 KB   136/566 KB   99/105 KB   197/227 KB   48/763 KB   149/542 KB   136/566 KB   99/105 KB   200/227 KB   48/763 KB   149/542 KB   136/566 KB   99/105 KB   203/227 KB   48/763 KB   152/542 KB   136/566 KB   99/105 KB   203/227 KB   48/763 KB   155/542 KB   136/566 KB   99/105 KB   203/227 KB   48/763 KB   157/542 KB   136/566 KB   99/105 KB   203/227 KB   48/763 KB   157/542 KB   136/566 KB   99/105 KB   207/227 KB   48/763 KB   157/542 KB   136/566 KB   99/105 KB   208/227 KB   48/763 KB   160/542 KB   136/566 KB   99/105 KB   208/227 KB   48/763 KB   163/542 KB   136/566 KB   99/105 KB   208/227 KB   48/763 KB   163/542 KB   136/566 KB   101/105 KB   208/227 KB   48/763 KB   165/542 KB   136/566 KB   101/105 KB   208/227 KB   48/763 KB   165/542 KB   136/566 KB   104/105 KB   208/227 KB   48/763 KB   165/542 KB   136/566 KB   105/105 KB   208/227 KB   48/763 KB   168/542 KB   136/566 KB   105/105 KB   208/227 KB                                                                   Downloaded: https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/3.1.4.RELEASE/spring-context-support-3.1.4.RELEASE.jar (105 KB at 3.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.12/jcl-over-slf4j-1.7.12.jar
+48/763 KB   168/542 KB   139/566 KB   208/227 KB                48/763 KB   168/542 KB   141/566 KB   208/227 KB   48/763 KB   168/542 KB   144/566 KB   208/227 KB   48/763 KB   168/542 KB   147/566 KB   208/227 KB   48/763 KB   168/542 KB   3/17 KB   147/566 KB   208/227 KB   48/763 KB   168/542 KB   3/17 KB   149/566 KB   208/227 KB   48/763 KB   168/542 KB   3/17 KB   149/566 KB   212/227 KB   48/763 KB   168/542 KB   3/17 KB   149/566 KB   216/227 KB   48/763 KB   168/542 KB   3/17 KB   149/566 KB   216/227 KB   48/763 KB   168/542 KB   3/17 KB   152/566 KB   216/227 KB   48/763 KB   168/542 KB   3/17 KB   155/566 KB   216/227 KB   48/763 KB   168/542 KB   3/17 KB   157/566 KB   216/227 KB   48/763 KB   171/542 KB   3/17 KB   157/566 KB   216/227 KB   48/763 KB   173/542 KB   3/17 KB   157/566 KB   216/227 KB   48/763 KB   176/542 KB   3/17 KB   157/566 KB   216/227 KB   48/763 KB   176/542 KB   5/17 KB   157/566 KB   216/227 KB   48/763 KB   176/542 KB   8/17 KB   157/566 KB   216/227 KB   48/763 KB   176/542 KB   11/17 KB   157/566 KB   216/227 KB   48/763 KB   176/542 KB   11/17 KB   157/566 KB   219/227 KB   48/763 KB   179/542 KB   11/17 KB   157/566 KB   219/227 KB   48/763 KB   181/542 KB   11/17 KB   157/566 KB   219/227 KB   48/763 KB   181/542 KB   11/17 KB   157/566 KB   221/227 KB   48/763 KB   181/542 KB   11/17 KB   157/566 KB   224/227 KB   48/763 KB   181/542 KB   11/17 KB   157/566 KB   227/227 KB   48/763 KB   184/542 KB   11/17 KB   157/566 KB   227/227 KB   48/763 KB   187/542 KB   11/17 KB   157/566 KB   227/227 KB   48/763 KB   187/542 KB   13/17 KB   157/566 KB   227/227 KB   48/763 KB   187/542 KB   16/17 KB   157/566 KB   227/227 KB   48/763 KB   187/542 KB   16/17 KB   157/566 KB   227/227 KB   48/763 KB   189/542 KB   16/17 KB   157/566 KB   227/227 KB   48/763 KB   192/542 KB   16/17 KB   157/566 KB   227/227 KB   48/763 KB   195/542 KB   16/17 KB   157/566 KB   227/227 KB   48/763 KB   195/542 KB   17/17 KB   157/566 KB   227/227 KB                                                                 Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar (227 KB at 7.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar
+                                                              Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.7.12/jcl-over-slf4j-1.7.12.jar (17 KB at 0.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar
+48/763 KB   195/542 KB   157/566 KB   3/32 KB                 48/763 KB   195/542 KB   157/566 KB   3/32 KB   3/275 KB   48/763 KB   199/542 KB   157/566 KB   3/32 KB   3/275 KB   48/763 KB   203/542 KB   157/566 KB   3/32 KB   3/275 KB   48/763 KB   207/542 KB   157/566 KB   3/32 KB   3/275 KB   48/763 KB   211/542 KB   157/566 KB   3/32 KB   3/275 KB   48/763 KB   211/542 KB   157/566 KB   3/32 KB   5/275 KB   48/763 KB   211/542 KB   157/566 KB   3/32 KB   8/275 KB   48/763 KB   211/542 KB   157/566 KB   5/32 KB   8/275 KB   48/763 KB   211/542 KB   157/566 KB   8/32 KB   8/275 KB   48/763 KB   211/542 KB   157/566 KB   8/32 KB   11/275 KB   48/763 KB   211/542 KB   157/566 KB   8/32 KB   13/275 KB   48/763 KB   211/542 KB   157/566 KB   8/32 KB   16/275 KB   48/763 KB   211/542 KB   157/566 KB   8/32 KB   19/275 KB   48/763 KB   211/542 KB   157/566 KB   11/32 KB   19/275 KB   48/763 KB   215/542 KB   157/566 KB   11/32 KB   19/275 KB   48/763 KB   219/542 KB   157/566 KB   11/32 KB   19/275 KB   48/763 KB   223/542 KB   157/566 KB   11/32 KB   19/275 KB   48/763 KB   227/542 KB   157/566 KB   11/32 KB   19/275 KB   48/763 KB   227/542 KB   161/566 KB   11/32 KB   19/275 KB   48/763 KB   227/542 KB   165/566 KB   11/32 KB   19/275 KB   48/763 KB   227/542 KB   169/566 KB   11/32 KB   19/275 KB   48/763 KB   227/542 KB   173/566 KB   11/32 KB   19/275 KB   48/763 KB   227/542 KB   173/566 KB   13/32 KB   19/275 KB   48/763 KB   227/542 KB   173/566 KB   13/32 KB   21/275 KB   48/763 KB   227/542 KB   173/566 KB   13/32 KB   24/275 KB   48/763 KB   227/542 KB   173/566 KB   16/32 KB   24/275 KB   48/763 KB   227/542 KB   173/566 KB   19/32 KB   24/275 KB   48/763 KB   227/542 KB   173/566 KB   21/32 KB   24/275 KB   48/763 KB   229/542 KB   173/566 KB   21/32 KB   24/275 KB   48/763 KB   232/542 KB   173/566 KB   21/32 KB   24/275 KB   48/763 KB   232/542 KB   173/566 KB   21/32 KB   27/275 KB   48/763 KB   232/542 KB   177/566 KB   21/32 KB   27/275 KB   48/763 KB   232/542 KB   181/566 KB   21/32 KB   27/275 KB   48/763 KB   232/542 KB   185/566 KB   21/32 KB   27/275 KB   48/763 KB   232/542 KB   189/566 KB   21/32 KB   27/275 KB   48/763 KB   232/542 KB   192/566 KB   21/32 KB   27/275 KB   48/763 KB   232/542 KB   192/566 KB   24/32 KB   27/275 KB   48/763 KB   235/542 KB   192/566 KB   24/32 KB   27/275 KB   48/763 KB   237/542 KB   192/566 KB   24/32 KB   27/275 KB   48/763 KB   237/542 KB   195/566 KB   24/32 KB   27/275 KB   48/763 KB   237/542 KB   195/566 KB   24/32 KB   29/275 KB   48/763 KB   237/542 KB   197/566 KB   24/32 KB   29/275 KB   48/763 KB   237/542 KB   197/566 KB   27/32 KB   29/275 KB   48/763 KB   240/542 KB   197/566 KB   27/32 KB   29/275 KB   48/763 KB   240/542 KB   197/566 KB   29/32 KB   29/275 KB   48/763 KB   240/542 KB   197/566 KB   32/32 KB   29/275 KB   48/763 KB   240/542 KB   197/566 KB   32/32 KB   29/275 KB   48/763 KB   240/542 KB   197/566 KB   32/32 KB   32/275 KB   48/763 KB   240/542 KB   200/566 KB   32/32 KB   32/275 KB   48/763 KB   240/542 KB   203/566 KB   32/32 KB   32/275 KB   48/763 KB   240/542 KB   205/566 KB   32/32 KB   32/275 KB   48/763 KB   240/542 KB   208/566 KB   32/32 KB   32/275 KB   48/763 KB   240/542 KB   211/566 KB   32/32 KB   32/275 KB   48/763 KB   240/542 KB   213/566 KB   32/32 KB   32/275 KB   48/763 KB   243/542 KB   213/566 KB   32/32 KB   32/275 KB                                                                Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar (32 KB at 0.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3.jar
+48/763 KB   245/542 KB   213/566 KB   32/275 KB              48/763 KB   248/542 KB   213/566 KB   32/275 KB   48/763 KB   251/542 KB   213/566 KB   32/275 KB   48/763 KB   251/542 KB   213/566 KB   3/445 KB   32/275 KB   48/763 KB   251/542 KB   213/566 KB   5/445 KB   32/275 KB   48/763 KB   251/542 KB   216/566 KB   5/445 KB   32/275 KB   48/763 KB   251/542 KB   219/566 KB   5/445 KB   32/275 KB   48/763 KB   251/542 KB   221/566 KB   5/445 KB   32/275 KB   48/763 KB   251/542 KB   221/566 KB   8/445 KB   32/275 KB   48/763 KB   251/542 KB   225/566 KB   8/445 KB   32/275 KB   48/763 KB   251/542 KB   229/566 KB   8/445 KB   32/275 KB   48/763 KB   251/542 KB   232/566 KB   8/445 KB   32/275 KB   48/763 KB   253/542 KB   232/566 KB   8/445 KB   32/275 KB   48/763 KB   256/542 KB   232/566 KB   8/445 KB   32/275 KB   48/763 KB   259/542 KB   232/566 KB   8/445 KB   32/275 KB   48/763 KB   261/542 KB   232/566 KB   8/445 KB   32/275 KB   48/763 KB   264/542 KB   232/566 KB   8/445 KB   32/275 KB   48/763 KB   267/542 KB   232/566 KB   8/445 KB   32/275 KB   48/763 KB   267/542 KB   232/566 KB   8/445 KB   36/275 KB   48/763 KB   267/542 KB   232/566 KB   8/445 KB   40/275 KB   48/763 KB   267/542 KB   232/566 KB   8/445 KB   44/275 KB   48/763 KB   267/542 KB   232/566 KB   8/445 KB   48/275 KB   48/763 KB   267/542 KB   235/566 KB   8/445 KB   48/275 KB   48/763 KB   267/542 KB   237/566 KB   8/445 KB   48/275 KB   48/763 KB   269/542 KB   237/566 KB   8/445 KB   48/275 KB   48/763 KB   269/542 KB   237/566 KB   11/445 KB   48/275 KB   48/763 KB   269/542 KB   237/566 KB   13/445 KB   48/275 KB   48/763 KB   269/542 KB   237/566 KB   16/445 KB   48/275 KB   48/763 KB   269/542 KB   240/566 KB   16/445 KB   48/275 KB   48/763 KB   272/542 KB   240/566 KB   16/445 KB   48/275 KB   48/763 KB   275/542 KB   240/566 KB   16/445 KB   48/275 KB   48/763 KB   275/542 KB   243/566 KB   16/445 KB   48/275 KB   48/763 KB   275/542 KB   246/566 KB   16/445 KB   48/275 KB   48/763 KB   277/542 KB   246/566 KB   16/445 KB   48/275 KB   48/763 KB   277/542 KB   246/566 KB   19/445 KB   48/275 KB   48/763 KB   277/542 KB   246/566 KB   21/445 KB   48/275 KB   48/763 KB   277/542 KB   246/566 KB   24/445 KB   48/275 KB   48/763 KB   280/542 KB   246/566 KB   24/445 KB   48/275 KB   48/763 KB   280/542 KB   248/566 KB   24/445 KB   48/275 KB   48/763 KB   283/542 KB   248/566 KB   24/445 KB   48/275 KB   48/763 KB   285/542 KB   248/566 KB   24/445 KB   48/275 KB   48/763 KB   285/542 KB   251/566 KB   24/445 KB   48/275 KB   48/763 KB   285/542 KB   251/566 KB   27/445 KB   48/275 KB   48/763 KB   285/542 KB   253/566 KB   27/445 KB   48/275 KB   48/763 KB   285/542 KB   256/566 KB   27/445 KB   48/275 KB   48/763 KB   285/542 KB   259/566 KB   27/445 KB   48/275 KB   48/763 KB   288/542 KB   259/566 KB   27/445 KB   48/275 KB   48/763 KB   291/542 KB   259/566 KB   27/445 KB   48/275 KB   48/763 KB   291/542 KB   262/566 KB   27/445 KB   48/275 KB   48/763 KB   291/542 KB   264/566 KB   27/445 KB   48/275 KB   48/763 KB   293/542 KB   264/566 KB   27/445 KB   48/275 KB   48/763 KB   293/542 KB   264/566 KB   29/445 KB   48/275 KB   48/763 KB   293/542 KB   264/566 KB   32/445 KB   48/275 KB   48/763 KB   296/542 KB   264/566 KB   32/445 KB   48/275 KB   48/763 KB   299/542 KB   264/566 KB   32/445 KB   48/275 KB   48/763 KB   301/542 KB   264/566 KB   32/445 KB   48/275 KB   48/763 KB   301/542 KB   264/566 KB   32/445 KB   52/275 KB   48/763 KB   301/542 KB   264/566 KB   32/445 KB   56/275 KB   48/763 KB   301/542 KB   264/566 KB   32/445 KB   60/275 KB   48/763 KB   301/542 KB   264/566 KB   32/445 KB   64/275 KB   48/763 KB   304/542 KB   264/566 KB   32/445 KB   64/275 KB   48/763 KB   307/542 KB   264/566 KB   32/445 KB   64/275 KB   48/763 KB   309/542 KB   264/566 KB   32/445 KB   64/275 KB   48/763 KB   309/542 KB   268/566 KB   32/445 KB   64/275 KB   48/763 KB   309/542 KB   272/566 KB   32/445 KB   64/275 KB   48/763 KB   309/542 KB   276/566 KB   32/445 KB   64/275 KB   48/763 KB   309/542 KB   280/566 KB   32/445 KB   64/275 KB   48/763 KB   309/542 KB   280/566 KB   36/445 KB   64/275 KB   48/763 KB   309/542 KB   280/566 KB   40/445 KB   64/275 KB   48/763 KB   309/542 KB   280/566 KB   44/445 KB   64/275 KB   48/763 KB   309/542 KB   280/566 KB   48/445 KB   64/275 KB   48/763 KB   312/542 KB   280/566 KB   48/445 KB   64/275 KB   48/763 KB   312/542 KB   284/566 KB   48/445 KB   64/275 KB   48/763 KB   312/542 KB   288/566 KB   48/445 KB   64/275 KB   48/763 KB   312/542 KB   292/566 KB   48/445 KB   64/275 KB   48/763 KB   312/542 KB   296/566 KB   48/445 KB   64/275 KB   48/763 KB   315/542 KB   296/566 KB   48/445 KB   64/275 KB   48/763 KB   317/542 KB   296/566 KB   48/445 KB   64/275 KB   48/763 KB   320/542 KB   296/566 KB   48/445 KB   64/275 KB   48/763 KB   323/542 KB   296/566 KB   48/445 KB   64/275 KB   48/763 KB   325/542 KB   296/566 KB   48/445 KB   64/275 KB   48/763 KB   325/542 KB   296/566 KB   52/445 KB   64/275 KB   48/763 KB   325/542 KB   296/566 KB   56/445 KB   64/275 KB   48/763 KB   325/542 KB   296/566 KB   60/445 KB   64/275 KB   48/763 KB   325/542 KB   296/566 KB   64/445 KB   64/275 KB   48/763 KB   328/542 KB   296/566 KB   64/445 KB   64/275 KB   48/763 KB   328/542 KB   296/566 KB   64/445 KB   68/275 KB   48/763 KB   328/542 KB   296/566 KB   64/445 KB   72/275 KB   48/763 KB   328/542 KB   296/566 KB   64/445 KB   76/275 KB   48/763 KB   328/542 KB   296/566 KB   64/445 KB   80/275 KB   48/763 KB   328/542 KB   296/566 KB   64/445 KB   83/275 KB   48/763 KB   331/542 KB   296/566 KB   64/445 KB   83/275 KB   48/763 KB   331/542 KB   296/566 KB   64/445 KB   85/275 KB   48/763 KB   331/542 KB   296/566 KB   68/445 KB   85/275 KB   48/763 KB   331/542 KB   296/566 KB   72/445 KB   85/275 KB   48/763 KB   331/542 KB   296/566 KB   76/445 KB   85/275 KB   48/763 KB   331/542 KB   296/566 KB   80/445 KB   85/275 KB   48/763 KB   331/542 KB   296/566 KB   80/445 KB   88/275 KB   48/763 KB   331/542 KB   296/566 KB   83/445 KB   88/275 KB   48/763 KB   331/542 KB   296/566 KB   85/445 KB   88/275 KB   48/763 KB   331/542 KB   296/566 KB   85/445 KB   91/275 KB   48/763 KB   331/542 KB   296/566 KB   88/445 KB   91/275 KB   48/763 KB   331/542 KB   296/566 KB   91/445 KB   91/275 KB   48/763 KB   331/542 KB   300/566 KB   91/445 KB   91/275 KB   48/763 KB   331/542 KB   304/566 KB   91/445 KB   91/275 KB   48/763 KB   331/542 KB   308/566 KB   91/445 KB   91/275 KB   48/763 KB   331/542 KB   312/566 KB   91/445 KB   91/275 KB   48/763 KB   331/542 KB   312/566 KB   93/445 KB   91/275 KB   48/763 KB   331/542 KB   312/566 KB   93/445 KB   93/275 KB   48/763 KB   331/542 KB   312/566 KB   93/445 KB   96/275 KB   48/763 KB   331/542 KB   312/566 KB   96/445 KB   96/275 KB   48/763 KB   331/542 KB   312/566 KB   99/445 KB   96/275 KB   48/763 KB   331/542 KB   312/566 KB   101/445 KB   96/275 KB   48/763 KB   331/542 KB   315/566 KB   101/445 KB   96/275 KB   48/763 KB   331/542 KB   315/566 KB   101/445 KB   99/275 KB   48/763 KB   331/542 KB   315/566 KB   104/445 KB   99/275 KB   48/763 KB   331/542 KB   317/566 KB   104/445 KB   99/275 KB   48/763 KB   331/542 KB   320/566 KB   104/445 KB   99/275 KB   48/763 KB   331/542 KB   320/566 KB   104/445 KB   101/275 KB   48/763 KB   335/542 KB   320/566 KB   104/445 KB   101/275 KB   48/763 KB   339/542 KB   320/566 KB   104/445 KB   101/275 KB   48/763 KB   343/542 KB   320/566 KB   104/445 KB   101/275 KB   48/763 KB   347/542 KB   320/566 KB   104/445 KB   101/275 KB   48/763 KB   347/542 KB   323/566 KB   104/445 KB   101/275 KB   48/763 KB   347/542 KB   323/566 KB   104/445 KB   104/275 KB   48/763 KB   347/542 KB   323/566 KB   107/445 KB   104/275 KB   48/763 KB   347/542 KB   323/566 KB   107/445 KB   107/275 KB   48/763 KB   347/542 KB   323/566 KB   107/445 KB   109/275 KB   48/763 KB   347/542 KB   326/566 KB   107/445 KB   109/275 KB   48/763 KB   347/542 KB   326/566 KB   107/445 KB   112/275 KB   48/763 KB   347/542 KB   328/566 KB   107/445 KB   112/275 KB   48/763 KB   347/542 KB   328/566 KB   107/445 KB   115/275 KB   48/763 KB   347/542 KB   328/566 KB   109/445 KB   115/275 KB   48/763 KB   347/542 KB   328/566 KB   112/445 KB   115/275 KB   48/763 KB   347/542 KB   328/566 KB   116/445 KB   115/275 KB   48/763 KB   347/542 KB   328/566 KB   120/445 KB   115/275 KB   48/763 KB   347/542 KB   328/566 KB   123/445 KB   115/275 KB   48/763 KB   347/542 KB   331/566 KB   123/445 KB   115/275 KB   48/763 KB   347/542 KB   333/566 KB   123/445 KB   115/275 KB   48/763 KB   347/542 KB   333/566 KB   123/445 KB   117/275 KB   48/763 KB   347/542 KB   336/566 KB   123/445 KB   117/275 KB   48/763 KB   347/542 KB   336/566 KB   123/445 KB   120/275 KB   48/763 KB   347/542 KB   339/566 KB   123/445 KB   120/275 KB   48/763 KB   347/542 KB   339/566 KB   125/445 KB   120/275 KB   48/763 KB   347/542 KB   342/566 KB   125/445 KB   120/275 KB   48/763 KB   347/542 KB   344/566 KB   125/445 KB   120/275 KB   48/763 KB   347/542 KB   344/566 KB   125/445 KB   123/275 KB   48/763 KB   347/542 KB   344/566 KB   125/445 KB   125/275 KB   48/763 KB   347/542 KB   344/566 KB   125/445 KB   128/275 KB   48/763 KB   347/542 KB   344/566 KB   125/445 KB   131/275 KB   48/763 KB   347/542 KB   344/566 KB   125/445 KB   133/275 KB   48/763 KB   347/542 KB   344/566 KB   125/445 KB   136/275 KB   48/763 KB   347/542 KB   344/566 KB   125/445 KB   139/275 KB   48/763 KB   351/542 KB   344/566 KB   125/445 KB   139/275 KB   48/763 KB   355/542 KB   344/566 KB   125/445 KB   139/275 KB   48/763 KB   359/542 KB   344/566 KB   125/445 KB   139/275 KB   48/763 KB   363/542 KB   344/566 KB   125/445 KB   139/275 KB   48/763 KB   365/542 KB   344/566 KB   125/445 KB   139/275 KB   48/763 KB   365/542 KB   348/566 KB   125/445 KB   139/275 KB   48/763 KB   365/542 KB   352/566 KB   125/445 KB   139/275 KB   48/763 KB   365/542 KB   356/566 KB   125/445 KB   139/275 KB   48/763 KB   365/542 KB   360/566 KB   125/445 KB   139/275 KB   48/763 KB   365/542 KB   360/566 KB   128/445 KB   139/275 KB   48/763 KB   365/542 KB   360/566 KB   131/445 KB   139/275 KB   48/763 KB   365/542 KB   360/566 KB   133/445 KB   139/275 KB   48/763 KB   365/542 KB   360/566 KB   136/445 KB   139/275 KB   48/763 KB   365/542 KB   360/566 KB   139/445 KB   139/275 KB   48/763 KB   365/542 KB   360/566 KB   141/445 KB   139/275 KB   48/763 KB   365/542 KB   360/566 KB   141/445 KB   141/275 KB   48/763 KB   365/542 KB   360/566 KB   144/445 KB   141/275 KB   48/763 KB   365/542 KB   360/566 KB   147/445 KB   141/275 KB   48/763 KB   368/542 KB   360/566 KB   147/445 KB   141/275 KB   48/763 KB   368/542 KB   360/566 KB   147/445 KB   144/275 KB   48/763 KB   368/542 KB   360/566 KB   149/445 KB   144/275 KB   48/763 KB   371/542 KB   360/566 KB   149/445 KB   144/275 KB   48/763 KB   371/542 KB   364/566 KB   149/445 KB   144/275 KB   48/763 KB   371/542 KB   368/566 KB   149/445 KB   144/275 KB   48/763 KB   371/542 KB   372/566 KB   149/445 KB   144/275 KB   48/763 KB   371/542 KB   376/566 KB   149/445 KB   144/275 KB   48/763 KB   371/542 KB   379/566 KB   149/445 KB   144/275 KB   48/763 KB   371/542 KB   381/566 KB   149/445 KB   144/275 KB   48/763 KB   371/542 KB   384/566 KB   149/445 KB   144/275 KB   48/763 KB   373/542 KB   384/566 KB   149/445 KB   144/275 KB   48/763 KB   376/542 KB   384/566 KB   149/445 KB   144/275 KB   48/763 KB   376/542 KB   387/566 KB   149/445 KB   144/275 KB   48/763 KB   376/542 KB   390/566 KB   149/445 KB   144/275 KB   48/763 KB   376/542 KB   392/566 KB   149/445 KB   144/275 KB   48/763 KB   376/542 KB   395/566 KB   149/445 KB   144/275 KB   48/763 KB   376/542 KB   397/566 KB   149/445 KB   144/275 KB   48/763 KB   376/542 KB   397/566 KB   149/445 KB   147/275 KB   48/763 KB   376/542 KB   397/566 KB   149/445 KB   149/275 KB   48/763 KB   376/542 KB   400/566 KB   149/445 KB   149/275 KB   48/763 KB   379/542 KB   400/566 KB   149/445 KB   149/275 KB   48/763 KB   379/542 KB   400/566 KB   149/445 KB   152/275 KB   48/763 KB   379/542 KB   400/566 KB   153/445 KB   152/275 KB   48/763 KB   379/542 KB   400/566 KB   155/445 KB   152/275 KB   48/763 KB   379/542 KB   403/566 KB   155/445 KB   152/275 KB   48/763 KB   381/542 KB   403/566 KB   155/445 KB   152/275 KB   48/763 KB   381/542 KB   406/566 KB   155/445 KB   152/275 KB   48/763 KB   381/542 KB   408/566 KB   155/445 KB   152/275 KB   48/763 KB   381/542 KB   408/566 KB   159/445 KB   152/275 KB   48/763 KB   381/542 KB   408/566 KB   163/445 KB   152/275 KB   48/763 KB   381/542 KB   408/566 KB   163/445 KB   152/275 KB   48/763 KB   381/542 KB   408/566 KB   163/445 KB   155/275 KB   48/763 KB   384/542 KB   408/566 KB   163/445 KB   155/275 KB   48/763 KB   384/542 KB   411/566 KB   163/445 KB   155/275 KB   48/763 KB   384/542 KB   411/566 KB   163/445 KB   157/275 KB   48/763 KB   384/542 KB   413/566 KB   163/445 KB   157/275 KB   48/763 KB   384/542 KB   413/566 KB   165/445 KB   157/275 KB   48/763 KB   387/542 KB   413/566 KB   165/445 KB   157/275 KB   48/763 KB   389/542 KB   413/566 KB   165/445 KB   157/275 KB   48/763 KB   389/542 KB   413/566 KB   165/445 KB   160/275 KB   48/763 KB   389/542 KB   413/566 KB   165/445 KB   163/275 KB   48/763 KB   389/542 KB   413/566 KB   168/445 KB   163/275 KB   48/763 KB   389/542 KB   413/566 KB   171/445 KB   163/275 KB   48/763 KB   389/542 KB   413/566 KB   171/445 KB   165/275 KB   48/763 KB   392/542 KB   413/566 KB   171/445 KB   165/275 KB   48/763 KB   392/542 KB   413/566 KB   171/445 KB   168/275 KB   48/763 KB   392/542 KB   413/566 KB   173/445 KB   168/275 KB   48/763 KB   392/542 KB   416/566 KB   173/445 KB   168/275 KB   48/763 KB   392/542 KB   419/566 KB   173/445 KB   168/275 KB   48/763 KB   392/542 KB   422/566 KB   173/445 KB   168/275 KB   48/763 KB   392/542 KB   424/566 KB   173/445 KB   168/275 KB   48/763 KB   392/542 KB   427/566 KB   173/445 KB   168/275 KB   48/763 KB   395/542 KB   427/566 KB   173/445 KB   168/275 KB   48/763 KB   395/542 KB   427/566 KB   176/445 KB   168/275 KB   48/763 KB   395/542 KB   429/566 KB   176/445 KB   168/275 KB   48/763 KB   395/542 KB   432/566 KB   176/445 KB   168/275 KB   48/763 KB   395/542 KB   432/566 KB   176/445 KB   171/275 KB   48/763 KB   395/542 KB   435/566 KB   176/445 KB   171/275 KB   48/763 KB   395/542 KB   438/566 KB   176/445 KB   171/275 KB   48/763 KB   395/542 KB   440/566 KB   176/445 KB   171/275 KB   48/763 KB   395/542 KB   440/566 KB   179/445 KB   171/275 KB   48/763 KB   395/542 KB   443/566 KB   179/445 KB   171/275 KB   48/763 KB   395/542 KB   443/566 KB   181/445 KB   171/275 KB   48/763 KB   395/542 KB   443/566 KB   184/445 KB   171/275 KB   48/763 KB   395/542 KB   443/566 KB   184/445 KB   173/275 KB   48/763 KB   395/542 KB   443/566 KB   184/445 KB   176/275 KB   48/763 KB   395/542 KB   443/566 KB   187/445 KB   176/275 KB   48/763 KB   399/542 KB   443/566 KB   187/445 KB   176/275 KB   48/763 KB   403/542 KB   443/566 KB   187/445 KB   176/275 KB   48/763 KB   407/542 KB   443/566 KB   187/445 KB   176/275 KB   48/763 KB   408/542 KB   443/566 KB   187/445 KB   176/275 KB   48/763 KB   408/542 KB   443/566 KB   189/445 KB   176/275 KB   48/763 KB   408/542 KB   443/566 KB   189/445 KB   179/275 KB   48/763 KB   408/542 KB   443/566 KB   189/445 KB   181/275 KB   48/763 KB   411/542 KB   443/566 KB   189/445 KB   181/275 KB   48/763 KB   411/542 KB   447/566 KB   189/445 KB   181/275 KB   48/763 KB   411/542 KB   451/566 KB   189/445 KB   181/275 KB   48/763 KB   411/542 KB   454/566 KB   189/445 KB   181/275 KB   48/763 KB   411/542 KB   454/566 KB   192/445 KB   181/275 KB   48/763 KB   411/542 KB   454/566 KB   195/445 KB   181/275 KB   48/763 KB   411/542 KB   454/566 KB   195/445 KB   184/275 KB   48/763 KB   411/542 KB   456/566 KB   195/445 KB   184/275 KB   48/763 KB   411/542 KB   459/566 KB   195/445 KB   184/275 KB   48/763 KB   411/542 KB   462/566 KB   195/445 KB   184/275 KB   48/763 KB   411/542 KB   464/566 KB   195/445 KB   184/275 KB   48/763 KB   411/542 KB   467/566 KB   195/445 KB   184/275 KB   48/763 KB   411/542 KB   467/566 KB   195/445 KB   188/275 KB   48/763 KB   411/542 KB   467/566 KB   195/445 KB   192/275 KB   48/763 KB   411/542 KB   467/566 KB   195/445 KB   196/275 KB   48/763 KB   411/542 KB   467/566 KB   195/445 KB   200/275 KB   48/763 KB   413/542 KB   467/566 KB   195/445 KB   200/275 KB   48/763 KB   416/542 KB   467/566 KB   195/445 KB   200/275 KB   48/763 KB   419/542 KB   467/566 KB   195/445 KB   200/275 KB   48/763 KB   422/542 KB   467/566 KB   195/445 KB   200/275 KB   48/763 KB   424/542 KB   467/566 KB   195/445 KB   200/275 KB   48/763 KB   427/542 KB   467/566 KB   195/445 KB   200/275 KB   48/763 KB   429/542 KB   467/566 KB   195/445 KB   200/275 KB   48/763 KB   432/542 KB   467/566 KB   195/445 KB   200/275 KB   48/763 KB   432/542 KB   470/566 KB   195/445 KB   200/275 KB   48/763 KB   432/542 KB   472/566 KB   195/445 KB   200/275 KB   48/763 KB   432/542 KB   472/566 KB   199/445 KB   200/275 KB   48/763 KB   432/542 KB   472/566 KB   203/445 KB   200/275 KB   48/763 KB   432/542 KB   472/566 KB   207/445 KB   200/275 KB   48/763 KB   432/542 KB   472/566 KB   211/445 KB   200/275 KB   48/763 KB   432/542 KB   475/566 KB   211/445 KB   200/275 KB   48/763 KB   435/542 KB   475/566 KB   211/445 KB   200/275 KB   48/763 KB   435/542 KB   475/566 KB   213/445 KB   200/275 KB   48/763 KB   438/542 KB   475/566 KB   213/445 KB   200/275 KB   48/763 KB   440/542 KB   475/566 KB   213/445 KB   200/275 KB   48/763 KB   440/542 KB   478/566 KB   213/445 KB   200/275 KB   48/763 KB   440/542 KB   478/566 KB   216/445 KB   200/275 KB   48/763 KB   443/542 KB   478/566 KB   216/445 KB   200/275 KB   48/763 KB   443/542 KB   478/566 KB   219/445 KB   200/275 KB   48/763 KB   443/542 KB   478/566 KB   221/445 KB   200/275 KB   48/763 KB   443/542 KB   480/566 KB   221/445 KB   200/275 KB   48/763 KB   445/542 KB   480/566 KB   221/445 KB   200/275 KB   48/763 KB   445/542 KB   480/566 KB   224/445 KB   200/275 KB   48/763 KB   445/542 KB   480/566 KB   227/445 KB   200/275 KB   48/763 KB   448/542 KB   480/566 KB   227/445 KB   200/275 KB   48/763 KB   451/542 KB   480/566 KB   227/445 KB   200/275 KB   48/763 KB   454/542 KB   480/566 KB   227/445 KB   200/275 KB   48/763 KB   454/542 KB   480/566 KB   229/445 KB   200/275 KB   48/763 KB   456/542 KB   480/566 KB   229/445 KB   200/275 KB   48/763 KB   456/542 KB   480/566 KB   232/445 KB   200/275 KB   48/763 KB   456/542 KB   480/566 KB   235/445 KB   200/275 KB   48/763 KB   456/542 KB   480/566 KB   237/445 KB   200/275 KB   48/763 KB   459/542 KB   480/566 KB   237/445 KB   200/275 KB   48/763 KB   459/542 KB   480/566 KB   237/445 KB   204/275 KB   48/763 KB   459/542 KB   480/566 KB   237/445 KB   208/275 KB   48/763 KB   459/542 KB   480/566 KB   237/445 KB   212/275 KB   48/763 KB   459/542 KB   480/566 KB   237/445 KB   216/275 KB   48/763 KB   459/542 KB   480/566 KB   241/445 KB   216/275 KB   48/763 KB   459/542 KB   480/566 KB   243/445 KB   216/275 KB   48/763 KB   461/542 KB   480/566 KB   243/445 KB   216/275 KB   48/763 KB   464/542 KB   480/566 KB   243/445 KB   216/275 KB   48/763 KB   467/542 KB   480/566 KB   243/445 KB   216/275 KB   48/763 KB   470/542 KB   480/566 KB   243/445 KB   216/275 KB   48/763 KB   472/542 KB   480/566 KB   243/445 KB   216/275 KB   48/763 KB   472/542 KB   480/566 KB   243/445 KB   219/275 KB   48/763 KB   472/542 KB   480/566 KB   247/445 KB   219/275 KB   48/763 KB   472/542 KB   480/566 KB   251/445 KB   219/275 KB   48/763 KB   472/542 KB   480/566 KB   251/445 KB   219/275 KB   48/763 KB   472/542 KB   480/566 KB   253/445 KB   219/275 KB   48/763 KB   472/542 KB   480/566 KB   256/445 KB   219/275 KB   48/763 KB   472/542 KB   480/566 KB   259/445 KB   219/275 KB   48/763 KB   472/542 KB   480/566 KB   262/445 KB   219/275 KB   48/763 KB   472/542 KB   480/566 KB   262/445 KB   221/275 KB   48/763 KB   472/542 KB   480/566 KB   262/445 KB   224/275 KB   48/763 KB   472/542 KB   480/566 KB   262/445 KB   227/275 KB   48/763 KB   472/542 KB   480/566 KB   264/445 KB   227/275 KB   48/763 KB   472/542 KB   480/566 KB   267/445 KB   227/275 KB   48/763 KB   472/542 KB   480/566 KB   269/445 KB   227/275 KB   48/763 KB   472/542 KB   480/566 KB   272/445 KB   227/275 KB   48/763 KB   475/542 KB   480/566 KB   272/445 KB   227/275 KB   48/763 KB   477/542 KB   480/566 KB   272/445 KB   227/275 KB   48/763 KB   480/542 KB   480/566 KB   272/445 KB   227/275 KB   48/763 KB   480/542 KB   480/566 KB   272/445 KB   229/275 KB   48/763 KB   480/542 KB   483/566 KB   272/445 KB   229/275 KB   48/763 KB   480/542 KB   486/566 KB   272/445 KB   229/275 KB   48/763 KB   480/542 KB   490/566 KB   272/445 KB   229/275 KB   48/763 KB   480/542 KB   494/566 KB   272/445 KB   229/275 KB   48/763 KB   480/542 KB   496/566 KB   272/445 KB   229/275 KB   48/763 KB   480/542 KB   499/566 KB   272/445 KB   229/275 KB   48/763 KB   480/542 KB   502/566 KB   272/445 KB   229/275 KB   48/763 KB   480/542 KB   504/566 KB   272/445 KB   229/275 KB   48/763 KB   480/542 KB   507/566 KB   272/445 KB   229/275 KB   48/763 KB   480/542 KB   510/566 KB   272/445 KB   229/275 KB   48/763 KB   480/542 KB   512/566 KB   272/445 KB   229/275 KB   48/763 KB   480/542 KB   515/566 KB   272/445 KB   229/275 KB   48/763 KB   480/542 KB   518/566 KB   272/445 KB   229/275 KB   48/763 KB   480/542 KB   520/566 KB   272/445 KB   229/275 KB   48/763 KB   480/542 KB   520/566 KB   272/445 KB   232/275 KB   48/763 KB   480/542 KB   520/566 KB   272/445 KB   235/275 KB   48/763 KB   480/542 KB   520/566 KB   272/445 KB   237/275 KB   48/763 KB   480/542 KB   520/566 KB   272/445 KB   240/275 KB   48/763 KB   480/542 KB   520/566 KB   275/445 KB   240/275 KB   48/763 KB   480/542 KB   520/566 KB   278/445 KB   240/275 KB   48/763 KB   480/542 KB   520/566 KB   280/445 KB   240/275 KB   48/763 KB   483/542 KB   520/566 KB   280/445 KB   240/275 KB   48/763 KB   486/542 KB   520/566 KB   280/445 KB   240/275 KB   48/763 KB   488/542 KB   520/566 KB   280/445 KB   240/275 KB   48/763 KB   491/542 KB   520/566 KB   280/445 KB   240/275 KB   48/763 KB   491/542 KB   523/566 KB   280/445 KB   240/275 KB   48/763 KB   494/542 KB   523/566 KB   280/445 KB   240/275 KB   48/763 KB   494/542 KB   523/566 KB   283/445 KB   240/275 KB   48/763 KB   494/542 KB   527/566 KB   283/445 KB   240/275 KB   48/763 KB   494/542 KB   528/566 KB   283/445 KB   240/275 KB   48/763 KB   496/542 KB   528/566 KB   283/445 KB   240/275 KB   48/763 KB   496/542 KB   532/566 KB   283/445 KB   240/275 KB   48/763 KB   496/542 KB   536/566 KB   283/445 KB   240/275 KB   48/763 KB   496/542 KB   536/566 KB   283/445 KB   240/275 KB   48/763 KB   496/542 KB   536/566 KB   287/445 KB   240/275 KB   48/763 KB   496/542 KB   536/566 KB   291/445 KB   240/275 KB   48/763 KB   496/542 KB   536/566 KB   295/445 KB   240/275 KB   48/763 KB   496/542 KB   536/566 KB   299/445 KB   240/275 KB   48/763 KB   496/542 KB   536/566 KB   299/445 KB   243/275 KB   48/763 KB   496/542 KB   539/566 KB   299/445 KB   243/275 KB   48/763 KB   496/542 KB   539/566 KB   301/445 KB   243/275 KB   48/763 KB   499/542 KB   539/566 KB   301/445 KB   243/275 KB   48/763 KB   502/542 KB   539/566 KB   301/445 KB   243/275 KB   48/763 KB   502/542 KB   542/566 KB   301/445 KB   243/275 KB   48/763 KB   502/542 KB   545/566 KB   301/445 KB   243/275 KB   48/763 KB   502/542 KB   545/566 KB   301/445 KB   245/275 KB   48/763 KB   502/542 KB   545/566 KB   304/445 KB   245/275 KB   48/763 KB   504/542 KB   545/566 KB   304/445 KB   245/275 KB   48/763 KB   504/542 KB   545/566 KB   307/445 KB   245/275 KB   48/763 KB   504/542 KB   545/566 KB   310/445 KB   245/275 KB   48/763 KB   504/542 KB   545/566 KB   310/445 KB   248/275 KB   48/763 KB   504/542 KB   545/566 KB   310/445 KB   251/275 KB   48/763 KB   507/542 KB   545/566 KB   310/445 KB   251/275 KB   48/763 KB   507/542 KB   545/566 KB   310/445 KB   253/275 KB   48/763 KB   507/542 KB   545/566 KB   312/445 KB   253/275 KB   48/763 KB   507/542 KB   545/566 KB   312/445 KB   256/275 KB   48/763 KB   507/542 KB   547/566 KB   312/445 KB   256/275 KB   48/763 KB   507/542 KB   550/566 KB   312/445 KB   256/275 KB   48/763 KB   507/542 KB   552/566 KB   312/445 KB   256/275 KB   48/763 KB   507/542 KB   555/566 KB   312/445 KB   256/275 KB   48/763 KB   507/542 KB   555/566 KB   312/445 KB   259/275 KB   48/763 KB   507/542 KB   558/566 KB   312/445 KB   259/275 KB   48/763 KB   507/542 KB   561/566 KB   312/445 KB   259/275 KB   48/763 KB   507/542 KB   563/566 KB   312/445 KB   259/275 KB   48/763 KB   507/542 KB   566/566 KB   312/445 KB   259/275 KB   48/763 KB   507/542 KB   566/566 KB   312/445 KB   259/275 KB   48/763 KB   510/542 KB   566/566 KB   312/445 KB   259/275 KB   48/763 KB   510/542 KB   566/566 KB   315/445 KB   259/275 KB   48/763 KB   510/542 KB   566/566 KB   317/445 KB   259/275 KB   48/763 KB   510/542 KB   566/566 KB   317/445 KB   261/275 KB   48/763 KB   510/542 KB   566/566 KB   317/445 KB   264/275 KB                                                                   Downloaded: https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/3.1.4.RELEASE/spring-webmvc-3.1.4.RELEASE.jar (566 KB at 8.1 KB/sec)
+48/763 KB   510/542 KB   320/445 KB   264/275 KB                48/763 KB   510/542 KB   323/445 KB   264/275 KB   48/763 KB   510/542 KB   326/445 KB   264/275 KB   48/763 KB   510/542 KB   326/445 KB   267/275 KB   48/763 KB   510/542 KB   328/445 KB   267/275 KB   48/763 KB   510/542 KB   331/445 KB   267/275 KB   48/763 KB   510/542 KB   335/445 KB   267/275 KB   48/763 KB   510/542 KB   339/445 KB   267/275 KB   48/763 KB   510/542 KB   343/445 KB   267/275 KB   48/763 KB   510/542 KB   347/445 KB   267/275 KB   48/763 KB   512/542 KB   347/445 KB   267/275 KB   48/763 KB   515/542 KB   347/445 KB   267/275 KB   48/763 KB   515/542 KB   347/445 KB   269/275 KB   48/763 KB   515/542 KB   351/445 KB   269/275 KB   48/763 KB   515/542 KB   355/445 KB   269/275 KB   48/763 KB   515/542 KB   359/445 KB   269/275 KB   48/763 KB   515/542 KB   363/445 KB   269/275 KB   48/763 KB   515/542 KB   363/445 KB   272/275 KB   48/763 KB   515/542 KB   363/445 KB   275/275 KB   48/763 KB   515/542 KB   363/445 KB   275/275 KB                                                      Downloaded: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar (275 KB at 3.8 KB/sec)
+48/763 KB   518/542 KB   363/445 KB                48/763 KB   520/542 KB   363/445 KB   48/763 KB   523/542 KB   363/445 KB   48/763 KB   523/542 KB   367/445 KB   48/763 KB   523/542 KB   371/445 KB   48/763 KB   523/542 KB   375/445 KB   48/763 KB   523/542 KB   379/445 KB   48/763 KB   523/542 KB   381/445 KB   48/763 KB   523/542 KB   384/445 KB   48/763 KB   523/542 KB   387/445 KB   48/763 KB   523/542 KB   390/445 KB   48/763 KB   526/542 KB   390/445 KB   48/763 KB   528/542 KB   390/445 KB   48/763 KB   528/542 KB   392/445 KB   48/763 KB   528/542 KB   395/445 KB   48/763 KB   528/542 KB   397/445 KB   48/763 KB   528/542 KB   400/445 KB   48/763 KB   528/542 KB   403/445 KB   48/763 KB   528/542 KB   406/445 KB   48/763 KB   531/542 KB   406/445 KB   48/763 KB   534/542 KB   406/445 KB   48/763 KB   534/542 KB   408/445 KB   48/763 KB   534/542 KB   411/445 KB   48/763 KB   534/542 KB   415/445 KB   48/763 KB   534/542 KB   419/445 KB   48/763 KB   534/542 KB   423/445 KB   48/763 KB   534/542 KB   427/445 KB   48/763 KB   534/542 KB   431/445 KB   48/763 KB   534/542 KB   435/445 KB   48/763 KB   534/542 KB   439/445 KB   48/763 KB   534/542 KB   443/445 KB   48/763 KB   534/542 KB   445/445 KB                                         Downloaded: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3.jar (445 KB at 5.8 KB/sec)
+52/763 KB   534/542 KB                56/763 KB   534/542 KB   60/763 KB   534/542 KB   64/763 KB   534/542 KB   68/763 KB   534/542 KB   72/763 KB   534/542 KB   76/763 KB   534/542 KB   80/763 KB   534/542 KB   83/763 KB   534/542 KB   85/763 KB   534/542 KB   88/763 KB   534/542 KB   91/763 KB   534/542 KB   93/763 KB   534/542 KB   93/763 KB   538/542 KB   93/763 KB   542/542 KB   93/763 KB   542/542 KB                            Downloaded: https://repo.maven.apache.org/maven2/org/springframework/spring-web/3.1.4.RELEASE/spring-web-3.1.4.RELEASE.jar (542 KB at 6.9 KB/sec)
+96/763 KB                99/763 KB   101/763 KB   104/763 KB   107/763 KB   109/763 KB   112/763 KB   116/763 KB   120/763 KB   124/763 KB   128/763 KB   132/763 KB   136/763 KB   140/763 KB   144/763 KB   148/763 KB   152/763 KB   156/763 KB   160/763 KB   164/763 KB   168/763 KB   172/763 KB   176/763 KB   180/763 KB   184/763 KB   188/763 KB   192/763 KB   195/763 KB   197/763 KB   200/763 KB   203/763 KB   205/763 KB   208/763 KB   211/763 KB   213/763 KB   216/763 KB   219/763 KB   221/763 KB   224/763 KB   228/763 KB   232/763 KB   236/763 KB   240/763 KB   244/763 KB   248/763 KB   252/763 KB   256/763 KB   259/763 KB   261/763 KB   264/763 KB   267/763 KB   269/763 KB   272/763 KB   275/763 KB   277/763 KB   280/763 KB   283/763 KB   285/763 KB   288/763 KB   292/763 KB   296/763 KB   300/763 KB   304/763 KB   308/763 KB   312/763 KB   316/763 KB   320/763 KB   323/763 KB   325/763 KB   328/763 KB   331/763 KB   333/763 KB   336/763 KB   339/763 KB   341/763 KB   344/763 KB   347/763 KB   349/763 KB   352/763 KB   356/763 KB   360/763 KB   364/763 KB   368/763 KB   372/763 KB   376/763 KB   380/763 KB   384/763 KB   388/763 KB   392/763 KB   396/763 KB   400/763 KB   404/763 KB   408/763 KB   412/763 KB   416/763 KB   419/763 KB   421/763 KB   424/763 KB   427/763 KB   429/763 KB   432/763 KB   435/763 KB   437/763 KB   440/763 KB   443/763 KB   445/763 KB   448/763 KB   452/763 KB   456/763 KB   460/763 KB   464/763 KB   468/763 KB   472/763 KB   476/763 KB   480/763 KB   483/763 KB   485/763 KB   488/763 KB   491/763 KB   493/763 KB   496/763 KB   499/763 KB   501/763 KB   504/763 KB   507/763 KB   509/763 KB   512/763 KB   516/763 KB   520/763 KB   524/763 KB   528/763 KB   532/763 KB   536/763 KB   540/763 KB   544/763 KB   547/763 KB   549/763 KB   552/763 KB   555/763 KB   557/763 KB   560/763 KB   563/763 KB   565/763 KB   568/763 KB   571/763 KB   573/763 KB   576/763 KB   580/763 KB   584/763 KB   588/763 KB   592/763 KB   [INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.csii:ai-web:war:0.0.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework:spring-webmvc:jar -> duplicate declaration of version (?) @ com.csii:ai-web:[unknown-version], F:\MAVEN\ai\ai-web\pom.xml, line 37, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: commons-dbcp:commons-dbcp:jar -> duplicate declaration of version 1.4 @ com.csii:ai:0.0.1-SNAPSHOT, F:\MAVEN\ai\pom.xml, line 114, column 16
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework:spring-webmvc:jar -> duplicate declaration of version 3.1.4.RELEASE @ com.csii:ai:0.0.1-SNAPSHOT, F:\MAVEN\ai\pom.xml, line 126, column 16
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+Downloading: https://repo.maven.apache.org/maven2/org/mortbay/jetty/maven-jetty-plugin/6.1.26/maven-jetty-plugin-6.1.26.pom
+3/6 KB   5/6 KB   6/6 KB            Downloaded: https://repo.maven.apache.org/maven2/org/mortbay/jetty/maven-jetty-plugin/6.1.26/maven-jetty-plugin-6.1.26.pom (6 KB at 1.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/mortbay/jetty/project/6.1.26/project-6.1.26.pom
+3/9 KB   5/9 KB   8/9 KB   9/9 KB            Downloaded: https://repo.maven.apache.org/maven2/org/mortbay/jetty/project/6.1.26/project-6.1.26.pom (9 KB at 7.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/mortbay/jetty/jetty-parent/10/jetty-parent-10.pom
+3/4 KB   4/4 KB            Downloaded: https://repo.maven.apache.org/maven2/org/mortbay/jetty/jetty-parent/10/jetty-parent-10.pom (4 KB at 1.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-parent/14/jetty-parent-14.pom
+3/17 KB   5/17 KB   8/17 KB   11/17 KB   12/17 KB   15/17 KB   17/17 KB              Downloaded: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-parent/14/jetty-parent-14.pom (17 KB at 6.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/mortbay/jetty/maven-jetty-plugin/6.1.26/maven-jetty-plugin-6.1.26.jar
+3/47 KB    5/47 KB   8/47 KB   11/47 KB   13/47 KB   16/47 KB   19/47 KB   21/47 KB   24/47 KB   27/47 KB   29/47 KB   32/47 KB   36/47 KB   40/47 KB   44/47 KB   47/47 KB              Downloaded: https://repo.maven.apache.org/maven2/org/mortbay/jetty/maven-jetty-plugin/6.1.26/maven-jetty-plugin-6.1.26.jar (47 KB at 6.9 KB/sec)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ai-web Maven Webapp 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-jetty-plugin:6.1.26:run (default-cli) > test-compile @ ai-web >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ai-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ ai-web ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to F:\MAVEN\ai\ai-web\target\classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] 未与 -source 1.7 一起设置引导类路径
+[WARNING] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java: F:\MAVEN\ai\ai-web\src\main\java\com\csii\ai\web\action\DemoAction.java使用了未经检查或不安全的操作。
+[WARNING] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java: 有关详细信息, 请使用 -Xlint:unchecked 重新编译。
+[INFO] 3 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[6,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[7,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,43] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,71] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[8,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[9,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,34] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,62] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,32] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,60] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,37] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,65] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[70,34] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[INFO] 13 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 18.605 s
+[INFO] Finished at: 2016-08-19T17:37:34+08:00
+[INFO] Final Memory: 33M/2944M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project ai-web: Compilation failure: Compilation failure:
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[6,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[7,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,43] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,71] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[8,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[9,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,34] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,62] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,32] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,60] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,37] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,65] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[70,34] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.csii:ai-web:war:0.0.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework:spring-webmvc:jar -> duplicate declaration of version (?) @ com.csii:ai-web:[unknown-version], F:\MAVEN\ai\ai-web\pom.xml, line 37, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: commons-dbcp:commons-dbcp:jar -> duplicate declaration of version 1.4 @ com.csii:ai:0.0.1-SNAPSHOT, F:\MAVEN\ai\pom.xml, line 114, column 16
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework:spring-webmvc:jar -> duplicate declaration of version 3.1.4.RELEASE @ com.csii:ai:0.0.1-SNAPSHOT, F:\MAVEN\ai\pom.xml, line 126, column 16
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ai-web Maven Webapp 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-jetty-plugin:6.1.26:run (default-cli) > test-compile @ ai-web >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ai-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ ai-web ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to F:\MAVEN\ai\ai-web\target\classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] 未与 -source 1.7 一起设置引导类路径
+[WARNING] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java: F:\MAVEN\ai\ai-web\src\main\java\com\csii\ai\web\action\DemoAction.java使用了未经检查或不安全的操作。
+[WARNING] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java: 有关详细信息, 请使用 -Xlint:unchecked 重新编译。
+[INFO] 3 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[6,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[7,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,43] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,71] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[8,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[9,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,34] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,62] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,32] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,60] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,37] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,65] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[70,34] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[INFO] 13 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.064 s
+[INFO] Finished at: 2016-08-19T17:53:24+08:00
+[INFO] Final Memory: 39M/2944M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project ai-web: Compilation failure: Compilation failure:
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[6,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[7,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,43] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,71] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[8,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[9,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,34] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,62] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,32] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,60] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,37] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,65] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[70,34] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.csii:ai-web:war:0.0.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework:spring-webmvc:jar -> duplicate declaration of version (?) @ com.csii:ai-web:[unknown-version], F:\MAVEN\ai\ai-web\pom.xml, line 37, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: commons-dbcp:commons-dbcp:jar -> duplicate declaration of version 1.4 @ com.csii:ai:0.0.1-SNAPSHOT, F:\MAVEN\ai\pom.xml, line 114, column 16
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework:spring-webmvc:jar -> duplicate declaration of version 3.1.4.RELEASE @ com.csii:ai:0.0.1-SNAPSHOT, F:\MAVEN\ai\pom.xml, line 126, column 16
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ai-web Maven Webapp 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-jetty-plugin:6.1.26:run (default-cli) > test-compile @ ai-web >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ai-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ ai-web ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to F:\MAVEN\ai\ai-web\target\classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] 未与 -source 1.7 一起设置引导类路径
+[WARNING] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java: F:\MAVEN\ai\ai-web\src\main\java\com\csii\ai\web\action\DemoAction.java使用了未经检查或不安全的操作。
+[WARNING] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java: 有关详细信息, 请使用 -Xlint:unchecked 重新编译。
+[INFO] 3 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[6,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[7,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,43] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,71] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[8,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[9,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,34] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,62] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,32] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,60] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,37] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,65] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[70,34] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[INFO] 13 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.921 s
+[INFO] Finished at: 2016-08-19T18:29:06+08:00
+[INFO] Final Memory: 39M/2944M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project ai-web: Compilation failure: Compilation failure:
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[6,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[7,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,43] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,71] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[8,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[9,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,34] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,62] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,32] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,60] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,37] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,65] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[70,34] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.csii:ai-web:war:0.0.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework:spring-webmvc:jar -> duplicate declaration of version (?) @ com.csii:ai-web:[unknown-version], F:\MAVEN\ai\ai-web\pom.xml, line 37, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: commons-dbcp:commons-dbcp:jar -> duplicate declaration of version 1.4 @ com.csii:ai:0.0.1-SNAPSHOT, F:\MAVEN\ai\pom.xml, line 125, column 16
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework:spring-webmvc:jar -> duplicate declaration of version 3.1.4.RELEASE @ com.csii:ai:0.0.1-SNAPSHOT, F:\MAVEN\ai\pom.xml, line 137, column 16
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ai-web Maven Webapp 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-jetty-plugin:6.1.26:run (default-cli) > test-compile @ ai-web >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ai-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ ai-web ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to F:\MAVEN\ai\ai-web\target\classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] 未与 -source 1.7 一起设置引导类路径
+[WARNING] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java: F:\MAVEN\ai\ai-web\src\main\java\com\csii\ai\web\action\DemoAction.java使用了未经检查或不安全的操作。
+[WARNING] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java: 有关详细信息, 请使用 -Xlint:unchecked 重新编译。
+[INFO] 3 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[6,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[7,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,43] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,71] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[8,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[9,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,34] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,62] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,32] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,60] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,37] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,65] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[70,34] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[INFO] 13 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.031 s
+[INFO] Finished at: 2016-08-22T11:52:26+08:00
+[INFO] Final Memory: 39M/2944M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project ai-web: Compilation failure: Compilation failure:
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[6,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[7,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,43] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,71] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[8,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[9,26] 程序包javax.servlet.http不存在
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,34] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,62] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,32] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,60] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,37] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,65] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /F:/MAVEN/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[70,34] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.csii:ai-web:war:0.0.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework:spring-webmvc:jar -> duplicate declaration of version (?) @ com.csii:ai-web:[unknown-version], E:\QuestionAnsweringSystem\AI-loVE\ai\ai-web\pom.xml, line 37, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: commons-dbcp:commons-dbcp:jar -> duplicate declaration of version 1.4 @ com.csii:ai:0.0.1-SNAPSHOT, E:\QuestionAnsweringSystem\AI-loVE\ai\pom.xml, line 125, column 16
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework:spring-webmvc:jar -> duplicate declaration of version 3.1.4.RELEASE @ com.csii:ai:0.0.1-SNAPSHOT, E:\QuestionAnsweringSystem\AI-loVE\ai\pom.xml, line 137, column 16
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ai-web Maven Webapp 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-jetty-plugin:6.1.26:run (default-cli) > test-compile @ ai-web >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ai-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ ai-web ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to E:\QuestionAnsweringSystem\AI-loVE\ai\ai-web\target\classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] 未与 -source 1.7 一起设置引导类路径
+[WARNING] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java: E:\QuestionAnsweringSystem\AI-loVE\ai\ai-web\src\main\java\com\csii\ai\web\action\DemoAction.java使用了未经检查或不安全的操作。
+[WARNING] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java: 有关详细信息, 请使用 -Xlint:unchecked 重新编译。
+[INFO] 3 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[8,26] 程序包javax.servlet.http不存在
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[9,26] 程序包javax.servlet.http不存在
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,34] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,62] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,32] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,60] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,37] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,65] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[70,34] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[6,26] 程序包javax.servlet.http不存在
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[7,26] 程序包javax.servlet.http不存在
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,43] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,71] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.action.DemoAction
+[INFO] 13 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.746 s
+[INFO] Finished at: 2016-08-22T15:08:28+08:00
+[INFO] Final Memory: 39M/2944M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project ai-web: Compilation failure: Compilation failure:
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[8,26] 程序包javax.servlet.http不存在
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[9,26] 程序包javax.servlet.http不存在
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,34] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,62] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,32] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,60] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,37] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,65] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[70,34] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[6,26] 程序包javax.servlet.http不存在
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[7,26] 程序包javax.servlet.http不存在
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,43] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,71] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.csii:ai-web:war:0.0.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework:spring-webmvc:jar -> duplicate declaration of version (?) @ com.csii:ai-web:[unknown-version], E:\QuestionAnsweringSystem\AI-loVE\ai\ai-web\pom.xml, line 37, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: commons-dbcp:commons-dbcp:jar -> duplicate declaration of version 1.4 @ com.csii:ai:0.0.1-SNAPSHOT, E:\QuestionAnsweringSystem\AI-loVE\ai\pom.xml, line 125, column 16
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework:spring-webmvc:jar -> duplicate declaration of version 3.1.4.RELEASE @ com.csii:ai:0.0.1-SNAPSHOT, E:\QuestionAnsweringSystem\AI-loVE\ai\pom.xml, line 137, column 16
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ai-web Maven Webapp 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-jetty-plugin:6.1.26:run (default-cli) > test-compile @ ai-web >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ai-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ ai-web ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to E:\QuestionAnsweringSystem\AI-loVE\ai\ai-web\target\classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] 未与 -source 1.7 一起设置引导类路径
+[WARNING] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java: E:\QuestionAnsweringSystem\AI-loVE\ai\ai-web\src\main\java\com\csii\ai\web\action\DemoAction.java使用了未经检查或不安全的操作。
+[WARNING] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java: 有关详细信息, 请使用 -Xlint:unchecked 重新编译。
+[INFO] 3 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[8,26] 程序包javax.servlet.http不存在
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[9,26] 程序包javax.servlet.http不存在
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,34] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,62] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,32] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,60] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,37] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,65] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[70,34] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[6,26] 程序包javax.servlet.http不存在
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[7,26] 程序包javax.servlet.http不存在
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,43] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,71] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.action.DemoAction
+[INFO] 13 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.713 s
+[INFO] Finished at: 2016-08-22T15:11:57+08:00
+[INFO] Final Memory: 39M/2944M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project ai-web: Compilation failure: Compilation failure:
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[8,26] 程序包javax.servlet.http不存在
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[9,26] 程序包javax.servlet.http不存在
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,34] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,62] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,32] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,60] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,37] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,65] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[70,34] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[6,26] 程序包javax.servlet.http不存在
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[7,26] 程序包javax.servlet.http不存在
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,43] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,71] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.csii:ai-web:war:0.0.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework:spring-webmvc:jar -> duplicate declaration of version (?) @ com.csii:ai-web:[unknown-version], E:\QuestionAnsweringSystem\AI-loVE\ai\ai-web\pom.xml, line 37, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: commons-dbcp:commons-dbcp:jar -> duplicate declaration of version 1.4 @ com.csii:ai:0.0.1-SNAPSHOT, E:\QuestionAnsweringSystem\AI-loVE\ai\pom.xml, line 125, column 16
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework:spring-webmvc:jar -> duplicate declaration of version 3.1.4.RELEASE @ com.csii:ai:0.0.1-SNAPSHOT, E:\QuestionAnsweringSystem\AI-loVE\ai\pom.xml, line 137, column 16
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ai-web Maven Webapp 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-jetty-plugin:6.1.26:run (default-cli) > test-compile @ ai-web >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ai-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ ai-web ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to E:\QuestionAnsweringSystem\AI-loVE\ai\ai-web\target\classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] 未与 -source 1.7 一起设置引导类路径
+[WARNING] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java: E:\QuestionAnsweringSystem\AI-loVE\ai\ai-web\src\main\java\com\csii\ai\web\action\DemoAction.java使用了未经检查或不安全的操作。
+[WARNING] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java: 有关详细信息, 请使用 -Xlint:unchecked 重新编译。
+[INFO] 3 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[8,26] 程序包javax.servlet.http不存在
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[9,26] 程序包javax.servlet.http不存在
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,34] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,62] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,32] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,60] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,37] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,65] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[70,34] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[6,26] 程序包javax.servlet.http不存在
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[7,26] 程序包javax.servlet.http不存在
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,43] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,71] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.action.DemoAction
+[INFO] 13 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.687 s
+[INFO] Finished at: 2016-08-22T15:58:16+08:00
+[INFO] Final Memory: 54M/2944M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project ai-web: Compilation failure: Compilation failure:
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[8,26] 程序包javax.servlet.http不存在
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[9,26] 程序包javax.servlet.http不存在
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,34] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,62] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,32] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,60] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,37] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,65] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[70,34] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[6,26] 程序包javax.servlet.http不存在
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[7,26] 程序包javax.servlet.http不存在
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,43] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,71] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.csii:ai-web:war:0.0.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework:spring-webmvc:jar -> duplicate declaration of version (?) @ com.csii:ai-web:[unknown-version], E:\QuestionAnsweringSystem\AI-loVE\ai\ai-web\pom.xml, line 37, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: commons-dbcp:commons-dbcp:jar -> duplicate declaration of version 1.4 @ com.csii:ai:0.0.1-SNAPSHOT, E:\QuestionAnsweringSystem\AI-loVE\ai\pom.xml, line 125, column 16
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework:spring-webmvc:jar -> duplicate declaration of version 3.1.4.RELEASE @ com.csii:ai:0.0.1-SNAPSHOT, E:\QuestionAnsweringSystem\AI-loVE\ai\pom.xml, line 137, column 16
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ai-web Maven Webapp 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-jetty-plugin:6.1.26:run (default-cli) > test-compile @ ai-web >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ai-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ ai-web ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to E:\QuestionAnsweringSystem\AI-loVE\ai\ai-web\target\classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] 未与 -source 1.7 一起设置引导类路径
+[WARNING] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java: E:\QuestionAnsweringSystem\AI-loVE\ai\ai-web\src\main\java\com\csii\ai\web\action\DemoAction.java使用了未经检查或不安全的操作。
+[WARNING] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java: 有关详细信息, 请使用 -Xlint:unchecked 重新编译。
+[INFO] 3 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[8,26] 程序包javax.servlet.http不存在
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[9,26] 程序包javax.servlet.http不存在
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,34] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,62] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,32] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,60] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,37] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,65] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[70,34] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[6,26] 程序包javax.servlet.http不存在
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[7,26] 程序包javax.servlet.http不存在
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,43] 找不到符号
+  符号:   类 HttpServletRequest
+  位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,71] 找不到符号
+  符号:   类 HttpServletResponse
+  位置: 类 com.csii.ai.web.action.DemoAction
+[INFO] 13 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.712 s
+[INFO] Finished at: 2016-08-22T16:08:06+08:00
+[INFO] Final Memory: 39M/2944M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project ai-web: Compilation failure: Compilation failure:
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[8,26] 程序包javax.servlet.http不存在
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[9,26] 程序包javax.servlet.http不存在
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,34] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[21,62] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,32] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[61,60] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,37] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[66,65] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/interceptor/JsonParseIntercepter.java:[70,34] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.interceptor.JsonParseIntercepter
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[6,26] 程序包javax.servlet.http不存在
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[7,26] 程序包javax.servlet.http不存在
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,43] 找不到符号
+[ERROR] 符号:   类 HttpServletRequest
+[ERROR] 位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java:[15,71] 找不到符号
+[ERROR] 符号:   类 HttpServletResponse
+[ERROR] 位置: 类 com.csii.ai.web.action.DemoAction
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.csii:ai-web:war:0.0.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework:spring-webmvc:jar -> duplicate declaration of version (?) @ com.csii:ai-web:[unknown-version], E:\QuestionAnsweringSystem\AI-loVE\ai\ai-web\pom.xml, line 43, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: commons-dbcp:commons-dbcp:jar -> duplicate declaration of version 1.4 @ com.csii:ai:0.0.1-SNAPSHOT, E:\QuestionAnsweringSystem\AI-loVE\ai\pom.xml, line 125, column 16
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework:spring-webmvc:jar -> duplicate declaration of version 3.1.4.RELEASE @ com.csii:ai:0.0.1-SNAPSHOT, E:\QuestionAnsweringSystem\AI-loVE\ai\pom.xml, line 137, column 16
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ai-web Maven Webapp 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-jetty-plugin:6.1.26:run (default-cli) > test-compile @ ai-web >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ai-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ ai-web ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to E:\QuestionAnsweringSystem\AI-loVE\ai\ai-web\target\classes
+[WARNING] 未与 -source 1.7 一起设置引导类路径
+[WARNING] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java: E:\QuestionAnsweringSystem\AI-loVE\ai\ai-web\src\main\java\com\csii\ai\web\action\DemoAction.java使用了未经检查或不安全的操作。
+[WARNING] /E:/QuestionAnsweringSystem/AI-loVE/ai/ai-web/src/main/java/com/csii/ai/web/action/DemoAction.java: 有关详细信息, 请使用 -Xlint:unchecked 重新编译。
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ai-web ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory E:\QuestionAnsweringSystem\AI-loVE\ai\ai-web\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:testCompile (default-testCompile) @ ai-web ---
+[INFO] Changes detected - recompiling the module!
+[INFO] 
+[INFO] <<< maven-jetty-plugin:6.1.26:run (default-cli) < test-compile @ ai-web <<<
+[INFO] 
+[INFO] --- maven-jetty-plugin:6.1.26:run (default-cli) @ ai-web ---
+[INFO] Configuring Jetty for project: ai-web Maven Webapp
+[INFO] Webapp source directory = E:\QuestionAnsweringSystem\AI-loVE\ai\ai-web\src\main\webapp
+[INFO] Reload Mechanic: automatic
+[INFO] Classes = E:\QuestionAnsweringSystem\AI-loVE\ai\ai-web\target\classes
+[INFO] Logging to org.slf4j.impl.SimpleLogger(org.mortbay.log) via org.mortbay.log.Slf4jLog
+[INFO] Context path = /ai-web
+[INFO] Tmp directory =  determined at runtime
+[INFO] Web defaults = org/mortbay/jetty/webapp/webdefault.xml
+[INFO] Web overrides =  none
+[INFO] web.xml file = E:\QuestionAnsweringSystem\AI-loVE\ai\ai-web\src\main\webapp\WEB-INF\web.xml
+[INFO] Webapp directory = E:\QuestionAnsweringSystem\AI-loVE\ai\ai-web\src\main\webapp
+[INFO] Starting jetty 6.1.26 ...
+[INFO] jetty-6.1.26
+[WARNING] Failed startup of context org.mortbay.jetty.plugin.Jetty6PluginWebAppContext@7123be6c{/ai-web,E:\QuestionAnsweringSystem\AI-loVE\ai\ai-web\src\main\webapp}
+java.lang.ClassNotFoundException: org.springframework.web.servlet.DispatcherServlet
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at org.mortbay.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:401)
+	at org.mortbay.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:363)
+	at org.mortbay.jetty.handler.ContextHandler.loadClass(ContextHandler.java:1102)
+	at org.mortbay.jetty.plugin.Jetty6MavenConfiguration.parseAnnotations(Jetty6MavenConfiguration.java:141)
+	at org.mortbay.jetty.plus.webapp.AbstractConfiguration.configure(AbstractConfiguration.java:119)
+	at org.mortbay.jetty.webapp.WebXmlConfiguration.configureWebApp(WebXmlConfiguration.java:180)
+	at org.mortbay.jetty.plus.webapp.AbstractConfiguration.configureWebApp(AbstractConfiguration.java:96)
+	at org.mortbay.jetty.plus.webapp.Configuration.configureWebApp(Configuration.java:149)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1279)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:518)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:499)
+	at org.mortbay.jetty.plugin.Jetty6PluginWebAppContext.doStart(Jetty6PluginWebAppContext.java:115)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerCollection.doStart(HandlerCollection.java:152)
+	at org.mortbay.jetty.handler.ContextHandlerCollection.doStart(ContextHandlerCollection.java:156)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerCollection.doStart(HandlerCollection.java:152)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:224)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.plugin.Jetty6PluginServer.start(Jetty6PluginServer.java:132)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.startJetty(AbstractJettyMojo.java:454)
+	at org.mortbay.jetty.plugin.AbstractJettyMojo.execute(AbstractJettyMojo.java:396)
+	at org.mortbay.jetty.plugin.AbstractJettyRunMojo.execute(AbstractJettyRunMojo.java:210)
+	at org.mortbay.jetty.plugin.Jetty6RunMojo.execute(Jetty6RunMojo.java:184)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:862)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:286)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+[INFO] Started SelectChannelConnector@0.0.0.0:8080
+[INFO] Started Jetty Server
